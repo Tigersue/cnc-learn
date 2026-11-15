@@ -1,0 +1,852 @@
+[
+  {
+    "path": "G71学习资料/G71粗加工循环学习笔记.md",
+    "size": 12865,
+    "sha256": "93d65f1a6917bd24b9cf7a5b019d85caba1ab527ff7a847ed80d26e6bc5ca121"
+  },
+  {
+    "path": "G71学习资料/g71-工件与余量.png",
+    "size": 30443,
+    "sha256": "cab3905791a46c01f2827ada4894f39ced9e48009a88d636625dc87fec882d91"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/G184与G186_动力头刚性攻丝图文详解.md",
+    "size": 10478,
+    "sha256": "f15bad571f76ea251eee690dcca01db8ebfe684d05b505fcda0aed4e00d15c6f"
+  },
+  {
+    "path": "G76学习资料/G76螺纹切削循环图文详解.md",
+    "size": 19777,
+    "sha256": "1f176c1574a1d87b6c5a294640154a9a777c5fa272b94d6276428e09d701beb9"
+  },
+  {
+    "path": "G76学习资料/G76_M10x1.5_螺纹工序教学片段.nc",
+    "size": 584,
+    "sha256": "4a255394d80aaf9cbf4980771837edf84ef3dcb8ef64dfd3e34893bac94d369a"
+  },
+  {
+    "path": "G74学习资料/G74端面切槽循环详解.md",
+    "size": 12883,
+    "sha256": "808ed8a13bc384cdee728800300b4106ba1a6e705282a7b35a4b12186ef36277"
+  },
+  {
+    "path": "G74学习资料/G74手册原图与实例对照.md",
+    "size": 9736,
+    "sha256": "5d774e71fe362ec9ba3a022e80acf4a59d279112bd558f80e3618496b3a3e65e"
+  },
+  {
+    "path": "G75学习资料/G75切槽循环图文详解.md",
+    "size": 17711,
+    "sha256": "f225f10cf1cfa308a9ad6e14e2fc8070a50f8c1565dbfc1050041f20457726d2"
+  },
+  {
+    "path": "G75学习资料/g75-P与R分步.png",
+    "size": 129402,
+    "sha256": "52a06154f3be03559ff20a7c4ea6e1a7b69742f13ab3195b1125ea9df36a0795"
+  },
+  {
+    "path": "G75学习资料/g75-单槽啄切.gif",
+    "size": 4396205,
+    "sha256": "8759b166251b62ac1a1da33ca3227f3b62fb52ebb3da91877423d06005a7ea32"
+  },
+  {
+    "path": "G75学习资料/g75-槽宽与刀具基准.png",
+    "size": 115436,
+    "sha256": "9a977e19f5ad1644c70dccc3d14fa4a4935364768f6016dc4c3ff4ab00aff7d2"
+  },
+  {
+    "path": "自动加工模板学习资料/S205A_切料头程序_原文与解释.md",
+    "size": 6303,
+    "sha256": "b51f6c5dac03e0d22afa44bd1c7bc097333fdf971e7e2941f26e7f4f39b98a72"
+  },
+  {
+    "path": "自动加工模板学习资料/S205A_手册原PDF359页_材料前端切掉O9002.png",
+    "size": 159906,
+    "sha256": "f5027ff8c254dc4595ede75a64cac7a546feae71f301392c00297dd67ad8c8a0"
+  },
+  {
+    "path": "自动加工模板学习资料/自动加工模板_逐段详解.md",
+    "size": 24168,
+    "sha256": "5dfb0860eb313647e434ae0543dfcb0b5b4926e4ab8e78a9477343c1ddaeda88"
+  },
+  {
+    "path": "自动加工模板学习资料/S205A_手册原PDF286页_棒料顶部切削.png",
+    "size": 336311,
+    "sha256": "1a57ceb761f6f1e8d9649bfd1e1d112a862ddf80d89681d8c7ea778831eeb76f"
+  },
+  {
+    "path": "培训练习1编程/图纸识读与程序说明.md",
+    "size": 13320,
+    "sha256": "25e6cf8f43011f45c3c54665a1affdb212690d0de8d28da0bbbaf3347bfbfb51"
+  },
+  {
+    "path": "培训练习1编程/O8101_主轴侧教学程序.nc",
+    "size": 3386,
+    "sha256": "30f2afb15857fd5ff00ae9cb6808d4dbdb48d8fe2bf0a96637808265035fbad4"
+  },
+  {
+    "path": "培训练习1编程/O8102_翻面背端教学程序.nc",
+    "size": 814,
+    "sha256": "0c9a7cd4520ad972b5ae2018f8ea78c9ce3436cee3649f178e0a61a9338f5827"
+  },
+  {
+    "path": "培训练习1编程/培训练习1_原图.pdf",
+    "size": 103520,
+    "sha256": "282a998ff766d463b35839c22551ec3f489d08c70b658ad1a94d29008689f9ae"
+  },
+  {
+    "path": "培训练习1编程/工件坐标与工序.png",
+    "size": 230234,
+    "sha256": "7dbcd22a8f47e3e1a8d62ff37c514ddbc4cb06ea224a897caab6343837163917"
+  },
+  {
+    "path": "内螺纹学习资料/螺纹尺寸计算_图片与S20A手册对照.md",
+    "size": 7885,
+    "sha256": "aadd6877851d782d6ccbf205d829ef09adb3b00819bee34016a84a205f4f49cb"
+  },
+  {
+    "path": "内螺纹学习资料/内螺纹切削图文详解.md",
+    "size": 17983,
+    "sha256": "935a95f45efa74ad08b42584db56e8a9af2a6f09c4ea132512fbfce587ffcffe"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/G84端面刚性攻丝_图文详解.md",
+    "size": 10394,
+    "sha256": "63c73b2473aadbb0b9814d2d7a51a272d088c4cd80c1bb62fa76f47612f3f1b0"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/用户程序原图.png",
+    "size": 192609,
+    "sha256": "8c9a6a4f92ad75463412f4cff8519fc42ee68ae7798e1fd1258a1a2bc982eb5e"
+  },
+  {
+    "path": "G92学习资料/g92-M6x1工件加工前后.png",
+    "size": 134284,
+    "sha256": "473686bd0f27d9173238dfd359a527b43a7c0e220abab1bb3b20f9d61e8c37f3"
+  },
+  {
+    "path": "G92学习资料/绘制分刀图.py",
+    "size": 3929,
+    "sha256": "31e58c837b2d4e58193e8a4250fdf46d609212173a530a347416308a7fe28847"
+  },
+  {
+    "path": "G92学习资料/G92_M6x1_手册两道工序原段.nc",
+    "size": 257,
+    "sha256": "c29fdb0d5bd3a2f87e77921f22f87c2537b88b34f4d0363f9c5a5afcdd2c13ca"
+  },
+  {
+    "path": "G92学习资料/g92-手册原例.png",
+    "size": 128038,
+    "sha256": "0d192e160188e57593cf42d1864a2f677a181d0f23896861132aaa132d7ca94e"
+  },
+  {
+    "path": "G92学习资料/g92-M6x1分刀图.png",
+    "size": 105059,
+    "sha256": "250f8e9552b14c79187d73848590a05ea8751d566bb24a813df956878ca95487"
+  },
+  {
+    "path": "G92学习资料/G92_M6x1_看工件学程序.md",
+    "size": 5120,
+    "sha256": "2bc010569abb4f9ce2c071c86c2c9220c8abe87bbd6996ed680c97fab7cafa05"
+  },
+  {
+    "path": "G92学习资料/g92-四段刀路.png",
+    "size": 88791,
+    "sha256": "ac178c73132ed142ae4561f16c56f1cc6d356c290ec05ee0a9e3857d02c6997b"
+  },
+  {
+    "path": "G92学习资料/G92螺纹切削循环图文详解.md",
+    "size": 13931,
+    "sha256": "9b291c434107ad4439d53623e7975405b0a40b6286d6059da8bda81dd16ee20e"
+  },
+  {
+    "path": "G92学习资料/g92-M6x1手册原页.png",
+    "size": 186680,
+    "sha256": "ffbb40ad0e00778b2136a0ad9bd7c3f5ccdc1e7a4685f257c7c92ca06d3e88ce"
+  },
+  {
+    "path": "G90学习资料/g90-手册原页311.png",
+    "size": 318707,
+    "sha256": "4f616cf4f13881e67abdeff8c1060cce56cd3e15e177a3b848d3294021b75781"
+  },
+  {
+    "path": "G90学习资料/G90外径循环学习笔记.md",
+    "size": 10756,
+    "sha256": "4ed8cd80c96d32835947159c90457395a2066afef859baf9de483099ab6db4da"
+  },
+  {
+    "path": "G90学习资料/g90-四段刀路.png",
+    "size": 93785,
+    "sha256": "7f3cc5e0c851e74491313ff43536bf7eed3f35b48da39e185641901c1bba568b"
+  },
+  {
+    "path": "G90学习资料/g90-练习工件.png",
+    "size": 82005,
+    "sha256": "c6a03820c16b685156b50c5e8ac47bb4fecd634acdf3f4eb0343a69d2a936a65"
+  },
+  {
+    "path": "G90学习资料/g90-手册原例.png",
+    "size": 56484,
+    "sha256": "d6e0014f2db13fcca10fc470e931027c990197d3e7ab0e8ec4bbf833982ff780"
+  },
+  {
+    "path": "G94学习资料/G94端面切削循环详解.md",
+    "size": 8335,
+    "sha256": "587759f8f520b6d739f2bd2daf504902b224f56675de1becd17bcc441bc8dfb5"
+  },
+  {
+    "path": "G94学习资料/动画逻辑核查.cjs",
+    "size": 3699,
+    "sha256": "08acee92ae5a3426399b994d3afca27df2d2eb48455f7393a7f230b45ef59bcb"
+  },
+  {
+    "path": "G94学习资料/G94循环_副本.gif",
+    "size": 342305,
+    "sha256": "527358905bf59a1973e0346a4451611b25a01358738fa256b77d308f41f4f0b3"
+  },
+  {
+    "path": "G94学习资料/静态刀路图.png",
+    "size": 161058,
+    "sha256": "103b2f365ea550aa319ae2b1598c1bc50ed2d7e4f6feee7bde3b9157f342f738"
+  },
+  {
+    "path": "G94学习资料/手册G94原图_原PDF311页.png",
+    "size": 73620,
+    "sha256": "b7b1bce08dbc8ba625d8f48d6595e5ec9905d715f5f509cdb0e53efb81c56efe"
+  },
+  {
+    "path": "G94学习资料/G94循环.gif",
+    "size": 342305,
+    "sha256": "527358905bf59a1973e0346a4451611b25a01358738fa256b77d308f41f4f0b3"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/scripts/make_figures.py",
+    "size": 8450,
+    "sha256": "32f43c59d010c65454eda9dc3b96fe42c263d2fd56f30cffc674eba607461153"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF318_7-50_G184格式.png",
+    "size": 263560,
+    "sha256": "94af0377b0ec3b85dcaa91d1f5ecbacda012db645f1c5896b351d01c8ae61a71"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF320_7-52_G184原例.png",
+    "size": 78542,
+    "sha256": "604100c9513e8971e0a53413090d908c5f9a9e3cd0e42d9650d81e7eecf72c50"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF325_7-57_G186格式.png",
+    "size": 244530,
+    "sha256": "7ff90d6d44e5a594559cd68bcd1047411256262723133f9427b928d26c51e47d"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF41_2-15_两型号轴名.png",
+    "size": 295150,
+    "sha256": "4679b40dad910a13d03091ded0b1d260dcc5414dbb97ec7371f37b053b29bbbd"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF326_7-58_G186动作与半径坐标.png",
+    "size": 156804,
+    "sha256": "bbd8e2e4bd95c688d73fa452ac277d15b29b2fb30ed0d23acba49db779b0d23c"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF29_2-3_S206A背面驱动构造.png",
+    "size": 548648,
+    "sha256": "eec786f7a15a6ebe0a1346fc0c7c1c141db421d4af23e259ad0c61876e3a7777"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF340_7-72_横向刚性攻丝工序例.png",
+    "size": 156972,
+    "sha256": "d1282a59994939d2c23243ac21c36270437a1a7364aa9fb57c300013cec9cd7a"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF327_7-59_G186例程疑点.png",
+    "size": 78061,
+    "sha256": "badc864a2498f702d69cece39164c8e1d18836ad5e26b41012aa422b8cdc76f2"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/原文/原PDF319_7-51_G184动作与直径坐标.png",
+    "size": 157789,
+    "sha256": "5b7dec840e3aaa5a4d39cf655530613d43c8964c665a92c36f723c1624ad897d"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/动图/G184_G186_旋转丝锥同步进退.gif",
+    "size": 1188601,
+    "sha256": "4f49035f448bbad27634d579a2baadbba6aa0a6f90ce3206765c035d076ef41d"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/图片/G184_G186_反向退出帧.png",
+    "size": 146362,
+    "sha256": "4a1679ceb6b9e4069ce327ea4824366da88eaadfcbebfde7f31718731bb24c54"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/图片/G184_G186_动力头与进给轴对照.png",
+    "size": 177206,
+    "sha256": "8de9aa4f0ac6a3f0b3d3c50cf7f3995b45350b0016caa92ef8047870405f20ee"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/图片/G184_G186_GIF实际退出帧.png",
+    "size": 132998,
+    "sha256": "a6c5120dca319c670acc1b304cc045e04ce7bd11aae07b808b90ba9102a0ec91"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/图片/G184_G186_停止延时帧.png",
+    "size": 147742,
+    "sha256": "fd59322d2eecba2690b4d9fa3f446c8b7faf9fbd178f9217ef4f62189a87c403"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/图片/G184_G186_同步攻入帧.png",
+    "size": 144874,
+    "sha256": "69205e4c316822f83fc5615c370a479b1d263e0254177bfe91d9471fdc30ac65"
+  },
+  {
+    "path": "G184_G186动力头刚性攻丝学习资料/图片/G184_G186_GIF实际起始帧.png",
+    "size": 133759,
+    "sha256": "dd5dd1bbb0202d5d701486df7455f5b87233d60d4f74f27d97ec985572a6740a"
+  },
+  {
+    "path": "G76学习资料/图解/g76-P020060拆解.png",
+    "size": 129690,
+    "sha256": "f3da99370c51a46a9a2d9207614169a1ac9c2175e9e53f77d0da8af31fb5d622"
+  },
+  {
+    "path": "G76学习资料/图解/g76-M10x1.5工件图.png",
+    "size": 154987,
+    "sha256": "8119b7d34bfa45a9539c3b6bc89a196ef3402989ee3699731d9e6d94046be7c6"
+  },
+  {
+    "path": "G76学习资料/图解/g76-直径与径向切深.png",
+    "size": 119303,
+    "sha256": "3cbcf3b8eb977b923d53e16d894f28dadf37290fe422a8d799a250c8e61ba98f"
+  },
+  {
+    "path": "G76学习资料/图解/螺纹凹凸牙形与直线刀路.png",
+    "size": 221998,
+    "sha256": "c5a018991b1e8e8d9fa4edbff2c552b262353116e27ffcda58fed3568fc8d7e9"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_M代码表_PDF277.png",
+    "size": 312156,
+    "sha256": "e32a51b628a10a7bbc8e9c8a383e5a8ce7252c7cade6e060f303790ba81b53f1"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P311_G92.png",
+    "size": 252980,
+    "sha256": "69c4ebb87397cd107db2d6205d62b91f44a7f55f66640f805a3311f812d9588e"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P312_G97.png",
+    "size": 208414,
+    "sha256": "9e318ed98268e56304508b8b0965213d1ac64cccc33b3f45e8dc74b137ce8791"
+  },
+  {
+    "path": "G76学习资料/参考原页/FANUC_F_G76_PDF97.png",
+    "size": 167020,
+    "sha256": "db2edc52f95ae7022392ef0446265dfd3f315129121b98f6c33a2d6e57347595"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P361_切削速度.png",
+    "size": 216507,
+    "sha256": "f8f964ccf508176b2fc2be56701e4da98e9ccd3bc566903ad2b2aec5f2d4994e"
+  },
+  {
+    "path": "G76学习资料/参考原页/FANUC_F_G76_PDF96.png",
+    "size": 336819,
+    "sha256": "50872e89ec5fa794cee1081c863af7bda1d9cdb9f27f18483ca0ae670dadebd3"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P274_坐标.png",
+    "size": 195733,
+    "sha256": "38d1cf05e200b157d723f94b1a22107502d663405bbfc947b339b560262054d6"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P363_不完整螺纹长度.png",
+    "size": 212585,
+    "sha256": "06d38cae3e099458f21154fd818b388a9b0985522aa8d29c9d76b67e37d5b7ea"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P334_补正.png",
+    "size": 58095,
+    "sha256": "f1b94088806c1adbb92ba6efd57efeee463fc7e1314d8a2f679152dd425430c0"
+  },
+  {
+    "path": "G76学习资料/参考原页/FANUC_F_G76_PDF101.png",
+    "size": 203487,
+    "sha256": "69e55dbd84f6ade1d5a2e34da9d3dd64c46d87ae5f31bcfa1b946b41bd16ec7a"
+  },
+  {
+    "path": "G76学习资料/参考原页/FANUC_F_G76_PDF100.png",
+    "size": 274516,
+    "sha256": "b0fb1d85d033c746da83b320bd75a5be2daf8a5175c7c8532ce0d101887e2576"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P362_螺纹切削计算表.png",
+    "size": 107157,
+    "sha256": "835984bf130a3cc5582ffe70d07e6c613e2328935a09633c41f360f3944ff4df"
+  },
+  {
+    "path": "G76学习资料/参考原页/FANUC_F_G76_PDF98.png",
+    "size": 245652,
+    "sha256": "49c6c1ca279619b0cef08b744d04e4c26d0e40dab816413089247e11f45f2210"
+  },
+  {
+    "path": "G76学习资料/参考原页/FANUC_F_G76_PDF99.png",
+    "size": 267517,
+    "sha256": "81957faf734391c75b073c79119ef5e9c7a3b23d8b8b9975404f7704e857523b"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_主副轴旋转_PDF281.png",
+    "size": 298425,
+    "sha256": "0a00c97fa593cd00fac78131f086adcac1411e466f921b4010d32cb7530d8e78"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P333_螺纹例程.png",
+    "size": 160732,
+    "sha256": "4f448e51b8d2e32d70a5625a134f52dd4550d4cc0854b9a2349fc77a8ce194ec"
+  },
+  {
+    "path": "G76学习资料/参考原页/津上_P294_G代码表.png",
+    "size": 193785,
+    "sha256": "cc89997538f3137583839c9dd327bae8f4f84b4cab5d88ce263d79183d9f1487"
+  },
+  {
+    "path": "G76学习资料/制作脚本/draw_g76_assets.py",
+    "size": 13478,
+    "sha256": "403010c3507d90f5dbac970bdbf961ece3475c94d1e652c5751463102a63b55a"
+  },
+  {
+    "path": "G76学习资料/动图/g76-代表帧-4.png",
+    "size": 156288,
+    "sha256": "88d471c6a63f3fcc4c83569df8d6cb584b28477196e1fd190d0fc45c10ccd7f1"
+  },
+  {
+    "path": "G76学习资料/动图/g76-代表帧-5.png",
+    "size": 156604,
+    "sha256": "87adf711b616474fee5f386c3c34fa3d89f5d9360bea86bdf04f44a48b7d6e8e"
+  },
+  {
+    "path": "G76学习资料/动图/g76-动图预览.png",
+    "size": 156288,
+    "sha256": "88d471c6a63f3fcc4c83569df8d6cb584b28477196e1fd190d0fc45c10ccd7f1"
+  },
+  {
+    "path": "G76学习资料/动图/g76-代表帧-2.png",
+    "size": 157347,
+    "sha256": "e86a5dc3946804ac6f19bbbafd6ecfdac2d7460bea4961fb0fa23c39c79f40c9"
+  },
+  {
+    "path": "G76学习资料/动图/g76-代表帧-3.png",
+    "size": 158456,
+    "sha256": "42bd55b23bb533bf15c0986466584af7f970fecf61e4f3a54568afaa7eb3b64a"
+  },
+  {
+    "path": "G76学习资料/动图/g76-代表帧-1.png",
+    "size": 156476,
+    "sha256": "0439ed2cacb7367a5b2ae9a77498a0b87ea6ea8c5fc2beea73c4b8719305da2a"
+  },
+  {
+    "path": "G76学习资料/动图/g76-GIF末帧检查.png",
+    "size": 115836,
+    "sha256": "4d82f70c30f4b90e6d6ca687173e918f8e8d227700b32889a2af658d7efa5f8c"
+  },
+  {
+    "path": "G76学习资料/动图/g76-粗切到精切-代表刀次.gif",
+    "size": 451903,
+    "sha256": "17bb7993363bfb7e67d55ebf9c3df79ea1704b39fbc90c7efe7797e4215eca3b"
+  },
+  {
+    "path": "G76学习资料/动图/g76-GIF实际解码检查.png",
+    "size": 113812,
+    "sha256": "3b37418abe621692fdc40edfde10257b7252f4975ac417f9bb7857cc85b619a3"
+  },
+  {
+    "path": "G76学习资料/动图/g76-代表帧检查.png",
+    "size": 290134,
+    "sha256": "1f58ab1a3a01abd83e55095f993d617cd347f961fc96c5bed3048a85986f4c84"
+  },
+  {
+    "path": "G74学习资料/手册原图/fanuc-g74-path.png",
+    "size": 44262,
+    "sha256": "511f5455cae54f72db3362ac6c696161d95a10f99895dd8f992c28414fdf80fa"
+  },
+  {
+    "path": "G74学习资料/手册原图/tsugami-335.png",
+    "size": 190805,
+    "sha256": "5603a665c0451580988f68dc2baada84fae47bd195da933545747bc3957331de"
+  },
+  {
+    "path": "G74学习资料/手册原图/tsugami-293.png",
+    "size": 389908,
+    "sha256": "d29e3c98f3d752fa88352e503c63923287abadab6dc2b1f124f2fe2d5fa9ee1e"
+  },
+  {
+    "path": "G74学习资料/手册原图/tsugami-335-drilling.png",
+    "size": 74161,
+    "sha256": "1de2a6e0b654404e510df5060cf441a6a945210df4c66852c7f6a88d3b110db4"
+  },
+  {
+    "path": "G74学习资料/手册原图/tsugami-342.png",
+    "size": 134216,
+    "sha256": "e027a7d2c5a6750e6da9c7310467e091d5171d2e2770fcd7c7fd465bca06081c"
+  },
+  {
+    "path": "G74学习资料/手册原图/tsugami-344.png",
+    "size": 195159,
+    "sha256": "8e1114fc7bb80b5cb2e65ab647bc7f5b2957f04dc62ec304548f6771f2122fe7"
+  },
+  {
+    "path": "G74学习资料/手册原图/tsugami-345.png",
+    "size": 184001,
+    "sha256": "9f08cb0b6326fce6fa4a8f7b06741879ccfe1516a5953e0fee019e63a63012c2"
+  },
+  {
+    "path": "G74学习资料/手册原图/fanuc-093.png",
+    "size": 158470,
+    "sha256": "bc49ee79546a0ad0ba04ab7fa94bed375df20846aeb6dd6b6c10966342c58444"
+  },
+  {
+    "path": "G74学习资料/手册原图/fanuc-092.png",
+    "size": 294536,
+    "sha256": "d9bd68f4c0815cb1228225e199b6071db5fe58fadbac008220759b07a91a439e"
+  },
+  {
+    "path": "G75学习资料/tools/build_g75_figures.py",
+    "size": 12301,
+    "sha256": "08d5a9f4d0eeeda3c75c2776fa1cc9eaf8e0952d7d2ef05accb54aa466effb73"
+  },
+  {
+    "path": "G75学习资料/六槽槽口R1/程序说明.md",
+    "size": 3430,
+    "sha256": "c65153eeb39ce3f2c5300ce3ecbe910719ca09636fa87e565d1355953dec2717"
+  },
+  {
+    "path": "G75学习资料/六槽槽口R1/O0001_主程序_教学.nc",
+    "size": 181,
+    "sha256": "db70cdb4e43f7c1ccec84af688ef62c924f3c4d097d534ab6eedd40ad90ecb5f"
+  },
+  {
+    "path": "G75学习资料/六槽槽口R1/O0100_含两侧R1_理论尖角教学.nc",
+    "size": 515,
+    "sha256": "556837d05bed693bc25774590d0f901a54fa0c8232fa8fb42feae3587b9d5519"
+  },
+  {
+    "path": "G75学习资料/六槽槽口R1/首槽R1_两侧切刃与参考点.png",
+    "size": 118387,
+    "sha256": "0fc9744eae86538d02679413df8b2de84d97053ef1b5a6650356daaf7d6dbc21"
+  },
+  {
+    "path": "G75学习资料/参考资料/FANUC_0i-F_车床操作手册_B-64604EN-1.pdf",
+    "size": 5606535,
+    "sha256": "22ee62532a0a4c2bc89477d83256dee526c3337baaef4ceb0d940a8c31b3c3d2"
+  },
+  {
+    "path": "G75学习资料/tools/__pycache__/build_g75_figures.cpython-312.pyc",
+    "size": 23762,
+    "sha256": "37a32fcdac9f5e1844cc7a884cdb42dc89fe54545037f91475b37f9c3a67544d"
+  },
+  {
+    "path": "output/pdf/锥度比计算与实际加工_图文学习手册.pdf",
+    "size": 314552,
+    "sha256": "3b7b1fe953c28cd296a5d8411eb74664bba66edbb6fd5c04e79be10cc15574bd"
+  },
+  {
+    "path": "output/pdf/S205A_切料头程序_手册原页摘录.pdf",
+    "size": 1100500,
+    "sha256": "ffc4d4ca81586741be8a7ed1fcf46fb1a2504d3673a89843645d3c5c4e6766e2"
+  },
+  {
+    "path": "output/pdf/G74_手册原图与实例对照.pdf",
+    "size": 1812460,
+    "sha256": "85d8b6b124df41027755f9a996f700870a5e7dfbbc7aced704a9d407e84f1091"
+  },
+  {
+    "path": "内螺纹学习资料/图解/内螺纹三径.png",
+    "size": 87787,
+    "sha256": "243f9468151e94ac9c3235b894f86fdd7d648ba3b7564afadc7a2584071c78f5"
+  },
+  {
+    "path": "内螺纹学习资料/图解/内外螺纹对照.png",
+    "size": 80630,
+    "sha256": "c7c07e335626129105425335717fc2e577201a59b9f0d22088b3fdf6809df2f8"
+  },
+  {
+    "path": "内螺纹学习资料/图解/内螺纹G92四段.png",
+    "size": 84693,
+    "sha256": "e37aa62603ddc0f6909443cb8db11536a0ecfff4d72c41d841f92febdc63f252"
+  },
+  {
+    "path": "内螺纹学习资料/tools/build_internal_thread_assets.py",
+    "size": 13132,
+    "sha256": "24b0af56329414359189004297ee88bd4f4d8254df3948f02cbf08da3a0769ab"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹分刀_同深光刀帧.png",
+    "size": 84980,
+    "sha256": "c048cb22730c81b109aca137830ecce7caf83b74d0fbd382dea146e56ecf40cd"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹一刀_切削帧.png",
+    "size": 84693,
+    "sha256": "e37aa62603ddc0f6909443cb8db11536a0ecfff4d72c41d841f92febdc63f252"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹一刀_起始帧.png",
+    "size": 83763,
+    "sha256": "ad0b8870ec6b3a2c6b3228f6933e8a17fe1d7344c4596a9270b3b5d7447ac6cc"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹分刀_起始帧.png",
+    "size": 85357,
+    "sha256": "dc38bbd334f1f2b9d552eee2f7276b2bbf2c0479b3ecc79644e82fba0ae75848"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹G92四段.gif",
+    "size": 227835,
+    "sha256": "78c3bed721caac2bb6775b90f97826a15524ed2821154d3db55b1f82a546b626"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹逐刀加深.gif",
+    "size": 548570,
+    "sha256": "ff6753b832e976d9bb313ade4c8279a7a810a323d496d8b0c1c396c14f5fec94"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹分刀_中间帧.png",
+    "size": 85462,
+    "sha256": "cc7c9495b637b7fd4f04f64530752b81631d83e1c7833dbb9faa4e28066d92ef"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹分刀_结束帧.png",
+    "size": 85928,
+    "sha256": "4ec5e8ffedf1c69001024ede44fd838642ada831335b61e39f024162855385f7"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹一刀_结束帧.png",
+    "size": 85612,
+    "sha256": "638af0618e763f72947dc47fe0feb8256295f8078977daad01893a0d35d54c22"
+  },
+  {
+    "path": "内螺纹学习资料/动图/内螺纹分刀_实际GIF验证帧.png",
+    "size": 79725,
+    "sha256": "ee7b5f1443e8b0e7c9f516eac5a79348d45598076e154f1401f89fa064723007"
+  },
+  {
+    "path": "内螺纹学习资料/参考资料/津上_P311_G92.png",
+    "size": 299357,
+    "sha256": "5f1c7eebb5447590c4069b19ccb69127a0f43fee4601185c6da0b8e4bc15f930"
+  },
+  {
+    "path": "内螺纹学习资料/参考资料/津上_P274_坐标.png",
+    "size": 229852,
+    "sha256": "482768129ceb42b3563f9a1d36a7cb774fff9c1572ba998aecc17afce3dc57d4"
+  },
+  {
+    "path": "内螺纹学习资料/参考资料/FANUC_F_PDF38.png",
+    "size": 195510,
+    "sha256": "8a88c7f01f987e7a43463731c5b305458f1ec8468407ca1dadc5b0b30ebb4aec"
+  },
+  {
+    "path": "内螺纹学习资料/参考资料/FANUC_F_PDF52.png",
+    "size": 260475,
+    "sha256": "76c883a067ba308fdd6cea6d7d7156c758dd9e3e5635f2abd8872294e4468526"
+  },
+  {
+    "path": "内螺纹学习资料/参考资料/FANUC_F_PDF51.png",
+    "size": 154270,
+    "sha256": "8cc0f9557d9c0b9b29f86af04e18a74f882918355c78a7dde020453eae0ad28a"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/scripts/make_figures.py",
+    "size": 9227,
+    "sha256": "73ea768891475221e596f5c38e497a1285d575e95547b35d0f077d10cc390cfb"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF321_7-53_刚性攻丝概要.png",
+    "size": 129062,
+    "sha256": "e57645d86cbe0b96ac1d89754f742f85165d4911bd0508ab863c4e85a1e833ee"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF323_7-55_动作与主轴例.png",
+    "size": 150371,
+    "sha256": "02618365959c2c13b0e6815af77f9c0e266709a2f0c0535ccd51152acce183f8"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF277_7-9_M代码表.png",
+    "size": 381676,
+    "sha256": "ec8a122642e4eed4881bdb15faeab9b535df72c457c8813a612da414efb6eda9"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF322_7-54_G84格式.png",
+    "size": 92834,
+    "sha256": "290d07714241de2448ae375a393ade791e9ac0a80266fbb0637374263f375744"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF337_7-69_中心刚性攻丝与P单位.png",
+    "size": 125853,
+    "sha256": "131e70b5a396c1476c9b3e60efd30e2fa47be6cd5877bce560e43b0f5bb05452"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF281_7-13_M05与冷却液.png",
+    "size": 421094,
+    "sha256": "8b756ae4199c37c61a218a6402e04c9f6de2382244502a7d089fe2eb418f4208"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/原文/原PDF301_7-33_延时单位注意.png",
+    "size": 84722,
+    "sha256": "a560cf2a10fe345e7edd9735bb0e2fb226999e91370e2bcc502ddeff72212afe"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/动图/G84主轴端面刚性攻丝_同步攻入反转退出.gif",
+    "size": 8371051,
+    "sha256": "dce89bac9b0dbb9d215eddffd54bdf7f0590b0012ae73cc8435d131bfe9606b5"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/图片/G84主轴端面攻丝_三个位置.png",
+    "size": 140811,
+    "sha256": "eeb013f6491489a8503b644e9195c27e574229f1891886c62b8c7546525b501a"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/图片/G84攻丝动画_关键帧.png",
+    "size": 98247,
+    "sha256": "e6469aa6ea964e88853445322ebd49120703bd777865a88b8d9e801d26183a6a"
+  },
+  {
+    "path": "G84端面刚性攻丝学习资料/图片/G84攻丝动画_孔底帧.png",
+    "size": 99026,
+    "sha256": "7e44da54ae225cf5fa01f4580a1994edfb3007df66a05e1e204b61fd92d63d0f"
+  },
+  {
+    "path": "G92学习资料/tools/build_g92_animations.py",
+    "size": 7839,
+    "sha256": "95eec195a824eacef2e460965af11c8f8df7edffbd306fe0a6790361e1b02395"
+  },
+  {
+    "path": "G92学习资料/tools/build_g92_workpiece.py",
+    "size": 5256,
+    "sha256": "9fec40e428de311ad50f9ac06a6891e3d2c76db982f1edb97077cf58703646ec"
+  },
+  {
+    "path": "G92学习资料/动图/g92-four-moves.gif",
+    "size": 3843648,
+    "sha256": "9f88a830228d287aee466c727620bf179cb7dfb35f30d1fa2a33518a3fa4fa3c"
+  },
+  {
+    "path": "G92学习资料/动图/g92-four-moves-end.png",
+    "size": 60429,
+    "sha256": "fdcf957b2a091ee53e85d6db13683693c0c146d0412eba80d5de51b56bac9a1c"
+  },
+  {
+    "path": "G92学习资料/动图/g92-five-passes.gif",
+    "size": 7466515,
+    "sha256": "33c89eaa393b2d88cf1abaa3cddb4c4961520ef5b9d816bcb0384a56d707ffe1"
+  },
+  {
+    "path": "G92学习资料/动图/g92-five-passes-first.png",
+    "size": 66627,
+    "sha256": "5cabcd597e12b5833ede0a2e60c31587583ada7238889b5e0f65e44cbee9a831"
+  },
+  {
+    "path": "G92学习资料/动图/g92-four-moves-cutting.png",
+    "size": 59633,
+    "sha256": "b49c6c442c37a29105b90aef785b5cef2e1b135148bbd879d2067911d615daf3"
+  },
+  {
+    "path": "G92学习资料/动图/g92-four-moves-first.png",
+    "size": 62352,
+    "sha256": "108c8fa2328e50cdbc2350e70ab8fca9bfae894bdab8448609ae31acb451bfcc"
+  },
+  {
+    "path": "G92学习资料/动图/g92-five-passes-end.png",
+    "size": 74548,
+    "sha256": "68cf5179ee3077063cbf3b1060d01f4ae143109c30c4c72742bb433e4091bcd2"
+  },
+  {
+    "path": "G92学习资料/动图/g92-five-passes-middle.png",
+    "size": 64621,
+    "sha256": "6545fc471456cc93380bbf57775bc65e667aa55b4fbeef5b51c0abd12712c6bd"
+  },
+  {
+    "path": "G92学习资料/tools/__pycache__/build_g92_animations.cpython-312.pyc",
+    "size": 14191,
+    "sha256": "bf0e8f1244e529d3282b023fb17646ed79022ac6d7e62ce51788ffd2a2e65469"
+  },
+  {
+    "path": "G94学习资料/sources/G94动图最终帧.png",
+    "size": 81105,
+    "sha256": "4b9fcd47ff63466f6daecf522e0612b817d8d2580595e3bb570b15172dc9e67e"
+  },
+  {
+    "path": "G94学习资料/sources/G94十二段端点检查.png",
+    "size": 96855,
+    "sha256": "64c5c212c121e68e2dc5ddc887b888d3b7766e10909dd17168b9c45fd5f0e639"
+  },
+  {
+    "path": "G94学习资料/sources/G94动图检查帧.png",
+    "size": 78520,
+    "sha256": "8729c869f02309b706e768de8d5bcc5cc5d21a4a5063c6d8b7fc816ef94808ca"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第一刀D.png",
+    "size": 74580,
+    "sha256": "cf23e9f98dff83dd26e3bd165b00c76139e0041a7535764fe289fcfe5d5e0149"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第一刀A.png",
+    "size": 75124,
+    "sha256": "eae78edb514b133fe4dbb0e28a658c0f36d275a03e8b0aa924a7c028e4b69123"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第一刀B.png",
+    "size": 75725,
+    "sha256": "70bd4a9f70e42bd4af234c311a1d3da7e64db40b84aa84970fa8bbc9a10e621c"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第一刀C.png",
+    "size": 74660,
+    "sha256": "ef219a2279d3961bbb355bbb445deddd54b8d0819fdbaa1c171c9271555e0838"
+  },
+  {
+    "path": "G94学习资料/sources/make_g94_visuals.py",
+    "size": 10042,
+    "sha256": "9370f311e5cf652d29a722891532f20a770921a72894238236e1647d4a10ed72"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第三刀D.png",
+    "size": 75549,
+    "sha256": "d11f47b4489fa7560cd50461c1704dc5bde3cc6d0a1e71d5b7b44a3df82145e7"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第二刀D.png",
+    "size": 75872,
+    "sha256": "9322a96bf1f98011211e1cb5460f8f133fd0b315531380b22674bcccf1abacf3"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第三刀B.png",
+    "size": 76548,
+    "sha256": "6d7264d6efec809dd1bbcee1f7634a1eadbf299ea695f49624fddf5fe5dcf3ab"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第二刀A.png",
+    "size": 76379,
+    "sha256": "858e5b1af0bcedfcba726a820a6b920b0efca679b3bd5bea63d6058d841a772f"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-最终.png",
+    "size": 77729,
+    "sha256": "9e1df4d804eb86de1c9c655ec08018a3d666a3694639b280bd0c4892db0d6cd1"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第三刀C.png",
+    "size": 75741,
+    "sha256": "9db20d780ceb28399238b97861440b2583473ed4be39e8a0360887c633bd9543"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第二刀B.png",
+    "size": 76892,
+    "sha256": "cc520f78653bd34a3590267ff3baab7e644a54d7a21a77554fca8d4b96110d8f"
+  },
+  {
+    "path": "G94学习资料/sources/G94检查-第二刀C.png",
+    "size": 75632,
+    "sha256": "97f821716f5d519206dc9491f93647793fe17771fc64328024ae7d251c478589"
+  }
+]

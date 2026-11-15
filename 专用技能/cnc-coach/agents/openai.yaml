@@ -1,0 +1,4 @@
+interface:
+  display_name: "cnc-coach"
+  short_description: "结合津上手册与个人学习记录，耐心指导识图、工艺、编程和首件验证"
+  default_prompt: "请用 $cnc-coach 在聊天里带我看这道工序，先贴当前点位、刀具动作和对应程序段，标上编号方便我追问。"

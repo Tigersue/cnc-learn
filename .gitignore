@@ -1,0 +1,37 @@
+# Local OS metadata
+.DS_Store
+._*
+
+# Dependency installs and caches
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Build and coverage output (keep the curated output/ teaching deliverables)
+dist/
+build/
+.coverage
+htmlcov/
+
+# Local credentials and environment overrides; keep documented templates
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# Regenerable book render and QA directories; keep scripts, content and notes in tmp/
+/tmp/book/render/
+/tmp/book/render-v3/
+/tmp/book/render-final/
+/tmp/book/classified/
+/tmp/book/classified-final/
+/tmp/book/classified-delivery/
+/tmp/book/font-render/
+/tmp/book/font-render-config/
+/tmp/book/verified/

@@ -1,0 +1,74 @@
+{
+  "code_identity": true,
+  "code_line_count": 22,
+  "arc_count": 7,
+  "arc_checks": [
+    {
+      "section": "B",
+      "line": 120,
+      "code": "G03",
+      "radius": 0.2,
+      "sweep_degrees": -45.1565687568413,
+      "center_error_mm": 0.0004989670548730189,
+      "path_error_mm": 0.0004286326167355274
+    },
+    {
+      "section": "B",
+      "line": 140,
+      "code": "G02",
+      "radius": 0.6,
+      "sweep_degrees": 90.0,
+      "center_error_mm": 0.0,
+      "path_error_mm": 0.0
+    },
+    {
+      "section": "D",
+      "line": 310,
+      "code": "G03",
+      "radius": 0.5,
+      "sweep_degrees": -90.0,
+      "center_error_mm": 0.0,
+      "path_error_mm": 0.0
+    },
+    {
+      "section": "D",
+      "line": 330,
+      "code": "G02",
+      "radius": 0.5,
+      "sweep_degrees": 90.0,
+      "center_error_mm": 0.0,
+      "path_error_mm": 0.0
+    },
+    {
+      "section": "D",
+      "line": 350,
+      "code": "G02",
+      "radius": 0.5,
+      "sweep_degrees": 90.0,
+      "center_error_mm": 0.0,
+      "path_error_mm": 0.0
+    },
+    {
+      "section": "D",
+      "line": 370,
+      "code": "G03",
+      "radius": 0.5,
+      "sweep_degrees": -90.0,
+      "center_error_mm": 0.0,
+      "path_error_mm": 0.0
+    },
+    {
+      "section": "E2",
+      "line": 510,
+      "code": "G03",
+      "radius": 0.4,
+      "sweep_degrees": -45.01320864495009,
+      "center_error_mm": 1.2888305244211862e-07,
+      "path_error_mm": 0.00031457505076204484
+    }
+  ],
+  "max_point_rounding_error_mm": 0.0004286326167355274,
+  "groove_min_blade_clearance_mm": -1.092459456231154e-13,
+  "controller_simulation": false,
+  "machine_validation": false
+}
