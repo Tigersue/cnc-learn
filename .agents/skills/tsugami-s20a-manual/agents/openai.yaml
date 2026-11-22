@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜手册总导航
+  short_description: 按任务定位手册模块、原文页码与配套技能，组织循序学习
+  default_prompt: 请用 $tsugami-s20a-manual 帮我选择学习模块，并给出对应手册页码。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

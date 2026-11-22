@@ -1,0 +1,332 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "fc5603ace4d7946a749f11b82f2594c56c22b4ba507e875c37866fa4f042de92",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-program-io",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      111,
+      131
+    ],
+    [
+      142,
+      145
+    ],
+    [
+      170,
+      171
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 40,
+      "end_line": 57
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 58,
+      "end_line": 100
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 101,
+      "end_line": 139
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 140,
+      "end_line": 197
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 198,
+      "end_line": 239
+    },
+    {
+      "original_pdf_page": 111,
+      "printed_page": "4-56",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "存储卡与USB适用性",
+      "start_line": 240,
+      "end_line": 275
+    },
+    {
+      "original_pdf_page": 112,
+      "printed_page": "4-57",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 276,
+      "end_line": 318
+    },
+    {
+      "original_pdf_page": 113,
+      "printed_page": "4-58",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 319,
+      "end_line": 363
+    },
+    {
+      "original_pdf_page": 114,
+      "printed_page": "4-59",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 364,
+      "end_line": 391
+    },
+    {
+      "original_pdf_page": 115,
+      "printed_page": "4-60",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 392,
+      "end_line": 428
+    },
+    {
+      "original_pdf_page": 116,
+      "printed_page": "4-61",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 429,
+      "end_line": 454
+    },
+    {
+      "original_pdf_page": 117,
+      "printed_page": "4-62",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 455,
+      "end_line": 499
+    },
+    {
+      "original_pdf_page": 118,
+      "printed_page": "4-63",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 500,
+      "end_line": 532
+    },
+    {
+      "original_pdf_page": 119,
+      "printed_page": "4-64",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 533,
+      "end_line": 568
+    },
+    {
+      "original_pdf_page": 120,
+      "printed_page": "4-65",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 569,
+      "end_line": 612
+    },
+    {
+      "original_pdf_page": 121,
+      "printed_page": "4-66",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 613,
+      "end_line": 646
+    },
+    {
+      "original_pdf_page": 122,
+      "printed_page": "4-67",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 647,
+      "end_line": 675
+    },
+    {
+      "original_pdf_page": 123,
+      "printed_page": "4-68",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "程序输入输出",
+      "start_line": 676,
+      "end_line": 702
+    },
+    {
+      "original_pdf_page": 124,
+      "printed_page": "4-69",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 703,
+      "end_line": 736
+    },
+    {
+      "original_pdf_page": 125,
+      "printed_page": "4-70",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 737,
+      "end_line": 777
+    },
+    {
+      "original_pdf_page": 126,
+      "printed_page": "4-71",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 778,
+      "end_line": 808
+    },
+    {
+      "original_pdf_page": 127,
+      "printed_page": "4-72",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 809,
+      "end_line": 842
+    },
+    {
+      "original_pdf_page": 128,
+      "printed_page": "4-73",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 843,
+      "end_line": 880
+    },
+    {
+      "original_pdf_page": 129,
+      "printed_page": "4-74",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 881,
+      "end_line": 910
+    },
+    {
+      "original_pdf_page": 130,
+      "printed_page": "4-75",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 911,
+      "end_line": 941
+    },
+    {
+      "original_pdf_page": 131,
+      "printed_page": "4-76",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数输入输出",
+      "start_line": 942,
+      "end_line": 978
+    },
+    {
+      "original_pdf_page": 142,
+      "printed_page": "4-87",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "MDI面板创建、删除程序",
+      "start_line": 979,
+      "end_line": 1017
+    },
+    {
+      "original_pdf_page": 143,
+      "printed_page": "4-88",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "MDI面板创建、删除程序",
+      "start_line": 1018,
+      "end_line": 1051
+    },
+    {
+      "original_pdf_page": 144,
+      "printed_page": "4-89",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "MDI面板创建、删除程序",
+      "start_line": 1052,
+      "end_line": 1069
+    },
+    {
+      "original_pdf_page": 145,
+      "printed_page": "4-90",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "MDI面板创建、删除程序",
+      "start_line": 1070,
+      "end_line": 1107
+    },
+    {
+      "original_pdf_page": 170,
+      "printed_page": "5-7",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "自动运行设置与存储器保护",
+      "start_line": 1108,
+      "end_line": 1160
+    },
+    {
+      "original_pdf_page": 171,
+      "printed_page": "5-8",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "自动运行设置与存储器保护",
+      "start_line": 1161,
+      "end_line": 1192
+    }
+  ]
+}

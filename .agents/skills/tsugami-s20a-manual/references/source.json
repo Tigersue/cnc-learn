@@ -1,0 +1,194 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "2c57e6df7dcb5eabfcf97846f8ed187f996d5c7345a749962bde9c3684b69516",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-manual",
+  "primary_ranges": [
+    [
+      1,
+      18
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 26,
+      "end_line": 43
+    },
+    {
+      "original_pdf_page": 2,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "封面、前言与原目录",
+      "start_line": 44,
+      "end_line": 51
+    },
+    {
+      "original_pdf_page": 3,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "封面、前言与原目录",
+      "start_line": 52,
+      "end_line": 61
+    },
+    {
+      "original_pdf_page": 4,
+      "printed_page": null,
+      "excerpt_page": 4,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "封面、前言与原目录",
+      "start_line": 62,
+      "end_line": 69
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 70,
+      "end_line": 112
+    },
+    {
+      "original_pdf_page": 6,
+      "printed_page": null,
+      "excerpt_page": 6,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "封面、前言与原目录",
+      "start_line": 113,
+      "end_line": 120
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 121,
+      "end_line": 159
+    },
+    {
+      "original_pdf_page": 8,
+      "printed_page": null,
+      "excerpt_page": 8,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "封面、前言与原目录",
+      "start_line": 160,
+      "end_line": 167
+    },
+    {
+      "original_pdf_page": 9,
+      "printed_page": null,
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 168,
+      "end_line": 224
+    },
+    {
+      "original_pdf_page": 10,
+      "printed_page": null,
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 225,
+      "end_line": 279
+    },
+    {
+      "original_pdf_page": 11,
+      "printed_page": null,
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 280,
+      "end_line": 335
+    },
+    {
+      "original_pdf_page": 12,
+      "printed_page": null,
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 336,
+      "end_line": 391
+    },
+    {
+      "original_pdf_page": 13,
+      "printed_page": null,
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 392,
+      "end_line": 448
+    },
+    {
+      "original_pdf_page": 14,
+      "printed_page": null,
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 449,
+      "end_line": 503
+    },
+    {
+      "original_pdf_page": 15,
+      "printed_page": null,
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 504,
+      "end_line": 558
+    },
+    {
+      "original_pdf_page": 16,
+      "printed_page": null,
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面、前言与原目录",
+      "start_line": 559,
+      "end_line": 590
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全入门",
+      "start_line": 591,
+      "end_line": 648
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全入门",
+      "start_line": 649,
+      "end_line": 690
+    }
+  ]
+}

@@ -1,0 +1,238 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "b8742c8b46824097c0b27daf597da978e0eb130eb05478d8e9db598436738373",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-safety",
+  "primary_ranges": [
+    [
+      17,
+      26
+    ],
+    [
+      56,
+      56
+    ],
+    [
+      157,
+      164
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 30,
+      "end_line": 47
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 48,
+      "end_line": 90
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 91,
+      "end_line": 129
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "人员资格与基本安全",
+      "start_line": 130,
+      "end_line": 187
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "人员资格与基本安全",
+      "start_line": 188,
+      "end_line": 229
+    },
+    {
+      "original_pdf_page": 19,
+      "printed_page": "1-3",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "人员资格与基本安全",
+      "start_line": 230,
+      "end_line": 285
+    },
+    {
+      "original_pdf_page": 20,
+      "printed_page": "1-4",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "人员资格与基本安全",
+      "start_line": 286,
+      "end_line": 320
+    },
+    {
+      "original_pdf_page": 21,
+      "printed_page": "1-5",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "送料机与门联锁",
+      "start_line": 321,
+      "end_line": 370
+    },
+    {
+      "original_pdf_page": 22,
+      "printed_page": "1-6",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "送料机与门联锁",
+      "start_line": 371,
+      "end_line": 406
+    },
+    {
+      "original_pdf_page": 23,
+      "printed_page": "1-7",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "送料机与门联锁",
+      "start_line": 407,
+      "end_line": 451
+    },
+    {
+      "original_pdf_page": 24,
+      "printed_page": "1-8",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "噪声、振动、切削液与视窗",
+      "start_line": 452,
+      "end_line": 487
+    },
+    {
+      "original_pdf_page": 25,
+      "printed_page": "1-9",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "噪声、振动、切削液与视窗",
+      "start_line": 488,
+      "end_line": 546
+    },
+    {
+      "original_pdf_page": 26,
+      "printed_page": "1-10",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "噪声、振动、切削液与视窗",
+      "start_line": 547,
+      "end_line": 587
+    },
+    {
+      "original_pdf_page": 56,
+      "printed_page": "4-1",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前置资料/原图",
+      "start_line": 588,
+      "end_line": 625
+    },
+    {
+      "original_pdf_page": 157,
+      "printed_page": "4-102",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 626,
+      "end_line": 675
+    },
+    {
+      "original_pdf_page": 158,
+      "printed_page": "4-103",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 676,
+      "end_line": 726
+    },
+    {
+      "original_pdf_page": 159,
+      "printed_page": "4-104",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 727,
+      "end_line": 782
+    },
+    {
+      "original_pdf_page": 160,
+      "printed_page": "4-105",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 783,
+      "end_line": 830
+    },
+    {
+      "original_pdf_page": 161,
+      "printed_page": "4-106",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 831,
+      "end_line": 883
+    },
+    {
+      "original_pdf_page": 162,
+      "printed_page": "4-107",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 884,
+      "end_line": 927
+    },
+    {
+      "original_pdf_page": 163,
+      "printed_page": "4-108",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "挡块、启动、排出与干涉联锁",
+      "start_line": 928,
+      "end_line": 965
+    },
+    {
+      "original_pdf_page": 164,
+      "printed_page": "5-1",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "自动运行条件",
+      "start_line": 966,
+      "end_line": 1013
+    }
+  ]
+}

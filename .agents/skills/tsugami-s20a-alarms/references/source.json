@@ -1,0 +1,467 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "fe054d6a413bf068b819ebfccd141fd624732829c245b0e06ba195c7031ba550",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-alarms",
+  "primary_ranges": [
+    [
+      17,
+      23
+    ],
+    [
+      157,
+      164
+    ],
+    [
+      239,
+      247
+    ],
+    [
+      367,
+      386
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 55,
+      "end_line": 72
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 73,
+      "end_line": 115
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 116,
+      "end_line": 154
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 155,
+      "end_line": 212
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 213,
+      "end_line": 254
+    },
+    {
+      "original_pdf_page": 19,
+      "printed_page": "1-3",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 255,
+      "end_line": 310
+    },
+    {
+      "original_pdf_page": 20,
+      "printed_page": "1-4",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 311,
+      "end_line": 345
+    },
+    {
+      "original_pdf_page": 21,
+      "printed_page": "1-5",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 346,
+      "end_line": 395
+    },
+    {
+      "original_pdf_page": 22,
+      "printed_page": "1-6",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 396,
+      "end_line": 431
+    },
+    {
+      "original_pdf_page": 23,
+      "printed_page": "1-7",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安全与送料门锁",
+      "start_line": 432,
+      "end_line": 476
+    },
+    {
+      "original_pdf_page": 157,
+      "printed_page": "4-102",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 477,
+      "end_line": 526
+    },
+    {
+      "original_pdf_page": 158,
+      "printed_page": "4-103",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 527,
+      "end_line": 577
+    },
+    {
+      "original_pdf_page": 159,
+      "printed_page": "4-104",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 578,
+      "end_line": 633
+    },
+    {
+      "original_pdf_page": 160,
+      "printed_page": "4-105",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 634,
+      "end_line": 681
+    },
+    {
+      "original_pdf_page": 161,
+      "printed_page": "4-106",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 682,
+      "end_line": 734
+    },
+    {
+      "original_pdf_page": 162,
+      "printed_page": "4-107",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 735,
+      "end_line": 778
+    },
+    {
+      "original_pdf_page": 163,
+      "printed_page": "4-108",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 779,
+      "end_line": 816
+    },
+    {
+      "original_pdf_page": 164,
+      "printed_page": "5-1",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "启动及刀架干涉联锁",
+      "start_line": 817,
+      "end_line": 864
+    },
+    {
+      "original_pdf_page": 239,
+      "printed_page": "6-51",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 865,
+      "end_line": 911
+    },
+    {
+      "original_pdf_page": 240,
+      "printed_page": "6-52",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 912,
+      "end_line": 964
+    },
+    {
+      "original_pdf_page": 241,
+      "printed_page": "6-53",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 965,
+      "end_line": 992
+    },
+    {
+      "original_pdf_page": 242,
+      "printed_page": "6-54",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 993,
+      "end_line": 1034
+    },
+    {
+      "original_pdf_page": 243,
+      "printed_page": "6-55",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 1035,
+      "end_line": 1063
+    },
+    {
+      "original_pdf_page": 244,
+      "printed_page": "6-56",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 1064,
+      "end_line": 1106
+    },
+    {
+      "original_pdf_page": 245,
+      "printed_page": "6-57",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 1107,
+      "end_line": 1130
+    },
+    {
+      "original_pdf_page": 246,
+      "printed_page": "6-58",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 1131,
+      "end_line": 1163
+    },
+    {
+      "original_pdf_page": 247,
+      "printed_page": "6-59",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量、感应与原点前提",
+      "start_line": 1164,
+      "end_line": 1213
+    },
+    {
+      "original_pdf_page": 367,
+      "printed_page": "8-1",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1214,
+      "end_line": 1260
+    },
+    {
+      "original_pdf_page": 368,
+      "printed_page": "8-2",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1261,
+      "end_line": 1311
+    },
+    {
+      "original_pdf_page": 369,
+      "printed_page": "8-3",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1312,
+      "end_line": 1361
+    },
+    {
+      "original_pdf_page": 370,
+      "printed_page": "8-4",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1362,
+      "end_line": 1413
+    },
+    {
+      "original_pdf_page": 371,
+      "printed_page": "8-5",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1414,
+      "end_line": 1455
+    },
+    {
+      "original_pdf_page": 372,
+      "printed_page": "8-6",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1456,
+      "end_line": 1504
+    },
+    {
+      "original_pdf_page": 373,
+      "printed_page": "8-7",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1505,
+      "end_line": 1551
+    },
+    {
+      "original_pdf_page": 374,
+      "printed_page": "8-8",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1552,
+      "end_line": 1593
+    },
+    {
+      "original_pdf_page": 375,
+      "printed_page": "8-9",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1594,
+      "end_line": 1638
+    },
+    {
+      "original_pdf_page": 376,
+      "printed_page": "8-10",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1639,
+      "end_line": 1688
+    },
+    {
+      "original_pdf_page": 377,
+      "printed_page": "8-11",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1689,
+      "end_line": 1731
+    },
+    {
+      "original_pdf_page": 378,
+      "printed_page": "8-12",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1732,
+      "end_line": 1774
+    },
+    {
+      "original_pdf_page": 379,
+      "printed_page": "8-13",
+      "excerpt_page": 40,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1775,
+      "end_line": 1816
+    },
+    {
+      "original_pdf_page": 380,
+      "printed_page": "8-14",
+      "excerpt_page": 41,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1817,
+      "end_line": 1866
+    },
+    {
+      "original_pdf_page": 381,
+      "printed_page": "8-15",
+      "excerpt_page": 42,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1867,
+      "end_line": 1914
+    },
+    {
+      "original_pdf_page": 382,
+      "printed_page": "8-16",
+      "excerpt_page": 43,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1915,
+      "end_line": 1964
+    },
+    {
+      "original_pdf_page": 383,
+      "printed_page": "8-17",
+      "excerpt_page": 44,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "警告信息及处理",
+      "start_line": 1965,
+      "end_line": 2000
+    },
+    {
+      "original_pdf_page": 384,
+      "printed_page": "8-18",
+      "excerpt_page": 45,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "津上专用报警",
+      "start_line": 2001,
+      "end_line": 2057
+    },
+    {
+      "original_pdf_page": 385,
+      "printed_page": "8-19",
+      "excerpt_page": 46,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "津上专用报警",
+      "start_line": 2058,
+      "end_line": 2101
+    },
+    {
+      "original_pdf_page": 386,
+      "printed_page": "8-20",
+      "excerpt_page": 47,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "津上专用报警",
+      "start_line": 2102,
+      "end_line": 2155
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜面板与基本操作
+  short_description: 依手册识别面板按键并解释开停机、移轴、分度与计数流程，附页码
+  default_prompt: 请用 $tsugami-s20a-operation 解释这项面板操作的步骤和观察结果。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

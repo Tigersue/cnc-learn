@@ -1,0 +1,585 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "9879b0c0d82e2a6c50a5e929cba45e62be1e692570d8b4205dce19287b1280e9",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-options",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      387,
+      442
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 69,
+      "end_line": 86
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 87,
+      "end_line": 129
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 130,
+      "end_line": 168
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 169,
+      "end_line": 226
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 227,
+      "end_line": 268
+    },
+    {
+      "original_pdf_page": 387,
+      "printed_page": "9-1",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.1 高压泵",
+      "start_line": 269,
+      "end_line": 327
+    },
+    {
+      "original_pdf_page": 388,
+      "printed_page": "9-2",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.1 高压泵",
+      "start_line": 328,
+      "end_line": 363
+    },
+    {
+      "original_pdf_page": 389,
+      "printed_page": "9-3",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.1 高压泵",
+      "start_line": 364,
+      "end_line": 429
+    },
+    {
+      "original_pdf_page": 390,
+      "printed_page": "9-4",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.1 高压泵",
+      "start_line": 430,
+      "end_line": 463
+    },
+    {
+      "original_pdf_page": 391,
+      "printed_page": "9-5",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.1 高压泵",
+      "start_line": 464,
+      "end_line": 518
+    },
+    {
+      "original_pdf_page": 392,
+      "printed_page": "9-6",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.2–9.3 喷油喷气",
+      "start_line": 519,
+      "end_line": 567
+    },
+    {
+      "original_pdf_page": 393,
+      "printed_page": "9-7",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.2–9.3 喷油喷气",
+      "start_line": 568,
+      "end_line": 599
+    },
+    {
+      "original_pdf_page": 394,
+      "printed_page": "9-8",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.2–9.3 喷油喷气",
+      "start_line": 600,
+      "end_line": 641
+    },
+    {
+      "original_pdf_page": 395,
+      "printed_page": "9-9",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.2–9.3 喷油喷气",
+      "start_line": 642,
+      "end_line": 697
+    },
+    {
+      "original_pdf_page": 396,
+      "printed_page": "9-10",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.4–9.6 分度与制动",
+      "start_line": 698,
+      "end_line": 740
+    },
+    {
+      "original_pdf_page": 397,
+      "printed_page": "9-11",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.4–9.6 分度与制动",
+      "start_line": 741,
+      "end_line": 781
+    },
+    {
+      "original_pdf_page": 398,
+      "printed_page": "9-12",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.4–9.6 分度与制动",
+      "start_line": 782,
+      "end_line": 824
+    },
+    {
+      "original_pdf_page": 399,
+      "printed_page": "9-13",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 825,
+      "end_line": 877
+    },
+    {
+      "original_pdf_page": 400,
+      "printed_page": "9-14",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 878,
+      "end_line": 931
+    },
+    {
+      "original_pdf_page": 401,
+      "printed_page": "9-15",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 932,
+      "end_line": 974
+    },
+    {
+      "original_pdf_page": 402,
+      "printed_page": "9-16",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 975,
+      "end_line": 1037
+    },
+    {
+      "original_pdf_page": 403,
+      "printed_page": "9-17",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 1038,
+      "end_line": 1071
+    },
+    {
+      "original_pdf_page": 404,
+      "printed_page": "9-18",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 1072,
+      "end_line": 1088
+    },
+    {
+      "original_pdf_page": 405,
+      "printed_page": "9-19",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 1089,
+      "end_line": 1124
+    },
+    {
+      "original_pdf_page": 406,
+      "printed_page": "9-20",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 1125,
+      "end_line": 1165
+    },
+    {
+      "original_pdf_page": 407,
+      "printed_page": "9-21",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.7–9.8 无导套/直驱导套",
+      "start_line": 1166,
+      "end_line": 1204
+    },
+    {
+      "original_pdf_page": 408,
+      "printed_page": "9-22",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.9–9.10 油雾与接口",
+      "start_line": 1205,
+      "end_line": 1252
+    },
+    {
+      "original_pdf_page": 409,
+      "printed_page": "9-23",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.9–9.10 油雾与接口",
+      "start_line": 1253,
+      "end_line": 1294
+    },
+    {
+      "original_pdf_page": 410,
+      "printed_page": "9-24",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1295,
+      "end_line": 1349
+    },
+    {
+      "original_pdf_page": 411,
+      "printed_page": "9-25",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1350,
+      "end_line": 1406
+    },
+    {
+      "original_pdf_page": 412,
+      "printed_page": "9-26",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1407,
+      "end_line": 1468
+    },
+    {
+      "original_pdf_page": 413,
+      "printed_page": "9-27",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1469,
+      "end_line": 1491
+    },
+    {
+      "original_pdf_page": 414,
+      "printed_page": "9-28",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1492,
+      "end_line": 1542
+    },
+    {
+      "original_pdf_page": 415,
+      "printed_page": "9-29",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1543,
+      "end_line": 1599
+    },
+    {
+      "original_pdf_page": 416,
+      "printed_page": "9-30",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1600,
+      "end_line": 1647
+    },
+    {
+      "original_pdf_page": 417,
+      "printed_page": "9-31",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.11–9.12 前后排出",
+      "start_line": 1648,
+      "end_line": 1714
+    },
+    {
+      "original_pdf_page": 418,
+      "printed_page": "9-32",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.13–9.16 设置仪与对芯",
+      "start_line": 1715,
+      "end_line": 1766
+    },
+    {
+      "original_pdf_page": 419,
+      "printed_page": "9-33",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.13–9.16 设置仪与对芯",
+      "start_line": 1767,
+      "end_line": 1817
+    },
+    {
+      "original_pdf_page": 420,
+      "printed_page": "9-34",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.13–9.16 设置仪与对芯",
+      "start_line": 1818,
+      "end_line": 1872
+    },
+    {
+      "original_pdf_page": 421,
+      "printed_page": "9-35",
+      "excerpt_page": 40,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.13–9.16 设置仪与对芯",
+      "start_line": 1873,
+      "end_line": 1915
+    },
+    {
+      "original_pdf_page": 422,
+      "printed_page": "9-36",
+      "excerpt_page": 41,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 1916,
+      "end_line": 1974
+    },
+    {
+      "original_pdf_page": 423,
+      "printed_page": "9-37",
+      "excerpt_page": 42,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 1975,
+      "end_line": 2011
+    },
+    {
+      "original_pdf_page": 424,
+      "printed_page": "9-38",
+      "excerpt_page": 43,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 2012,
+      "end_line": 2059
+    },
+    {
+      "original_pdf_page": 425,
+      "printed_page": "9-39",
+      "excerpt_page": 44,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 2060,
+      "end_line": 2111
+    },
+    {
+      "original_pdf_page": 426,
+      "printed_page": "9-40",
+      "excerpt_page": 45,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 2112,
+      "end_line": 2145
+    },
+    {
+      "original_pdf_page": 427,
+      "printed_page": "9-41",
+      "excerpt_page": 46,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 2146,
+      "end_line": 2194
+    },
+    {
+      "original_pdf_page": 428,
+      "printed_page": "9-42",
+      "excerpt_page": 47,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 2195,
+      "end_line": 2242
+    },
+    {
+      "original_pdf_page": 429,
+      "printed_page": "9-43",
+      "excerpt_page": 48,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.17–9.19 非圆材料适配器",
+      "start_line": 2243,
+      "end_line": 2280
+    },
+    {
+      "original_pdf_page": 430,
+      "printed_page": "9-44",
+      "excerpt_page": 49,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.20–9.24 防震、排屑、流量、接料、油雾润滑",
+      "start_line": 2281,
+      "end_line": 2326
+    },
+    {
+      "original_pdf_page": 431,
+      "printed_page": "9-45",
+      "excerpt_page": 50,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.20–9.24 防震、排屑、流量、接料、油雾润滑",
+      "start_line": 2327,
+      "end_line": 2369
+    },
+    {
+      "original_pdf_page": 432,
+      "printed_page": "9-46",
+      "excerpt_page": 51,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.20–9.24 防震、排屑、流量、接料、油雾润滑",
+      "start_line": 2370,
+      "end_line": 2408
+    },
+    {
+      "original_pdf_page": 433,
+      "printed_page": "9-47",
+      "excerpt_page": 52,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.20–9.24 防震、排屑、流量、接料、油雾润滑",
+      "start_line": 2409,
+      "end_line": 2458
+    },
+    {
+      "original_pdf_page": 434,
+      "printed_page": "9-48",
+      "excerpt_page": 53,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.20–9.24 防震、排屑、流量、接料、油雾润滑",
+      "start_line": 2459,
+      "end_line": 2495
+    },
+    {
+      "original_pdf_page": 435,
+      "printed_page": "9-49",
+      "excerpt_page": 54,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.20–9.24 防震、排屑、流量、接料、油雾润滑",
+      "start_line": 2496,
+      "end_line": 2526
+    },
+    {
+      "original_pdf_page": 436,
+      "printed_page": "9-50",
+      "excerpt_page": 55,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2527,
+      "end_line": 2563
+    },
+    {
+      "original_pdf_page": 437,
+      "printed_page": "9-51",
+      "excerpt_page": 56,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2564,
+      "end_line": 2615
+    },
+    {
+      "original_pdf_page": 438,
+      "printed_page": "9-52",
+      "excerpt_page": 57,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2616,
+      "end_line": 2652
+    },
+    {
+      "original_pdf_page": 439,
+      "printed_page": "9-53",
+      "excerpt_page": 58,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2653,
+      "end_line": 2698
+    },
+    {
+      "original_pdf_page": 440,
+      "printed_page": "9-54",
+      "excerpt_page": 59,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2699,
+      "end_line": 2742
+    },
+    {
+      "original_pdf_page": 441,
+      "printed_page": "9-55",
+      "excerpt_page": 60,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2743,
+      "end_line": 2785
+    },
+    {
+      "original_pdf_page": 442,
+      "printed_page": "9-56",
+      "excerpt_page": 61,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "9.25–9.30 刀具台、照明、容纳、灭火、信号塔、四轴动力头",
+      "start_line": 2786,
+      "end_line": 2803
+    }
+  ]
+}

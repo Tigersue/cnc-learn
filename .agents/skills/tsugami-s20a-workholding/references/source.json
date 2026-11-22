@@ -1,0 +1,490 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "6e947e49b6cc60ffc7313fee65c01806359bb08fe85e89da3e3463b9b55e4f70",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-workholding",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      194,
+      229
+    ],
+    [
+      399,
+      407
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 58,
+      "end_line": 75
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 76,
+      "end_line": 118
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 119,
+      "end_line": 157
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 158,
+      "end_line": 215
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 216,
+      "end_line": 257
+    },
+    {
+      "original_pdf_page": 194,
+      "printed_page": "6-6",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主副夹头更换",
+      "start_line": 258,
+      "end_line": 302
+    },
+    {
+      "original_pdf_page": 195,
+      "printed_page": "6-7",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主副夹头更换",
+      "start_line": 303,
+      "end_line": 361
+    },
+    {
+      "original_pdf_page": 196,
+      "printed_page": "6-8",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 362,
+      "end_line": 401
+    },
+    {
+      "original_pdf_page": 197,
+      "printed_page": "6-9",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 402,
+      "end_line": 458
+    },
+    {
+      "original_pdf_page": 198,
+      "printed_page": "6-10",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 459,
+      "end_line": 492
+    },
+    {
+      "original_pdf_page": 199,
+      "printed_page": "6-11",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 493,
+      "end_line": 528
+    },
+    {
+      "original_pdf_page": 200,
+      "printed_page": "6-12",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 529,
+      "end_line": 561
+    },
+    {
+      "original_pdf_page": 201,
+      "printed_page": "6-13",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 562,
+      "end_line": 600
+    },
+    {
+      "original_pdf_page": 202,
+      "printed_page": "6-14",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 601,
+      "end_line": 633
+    },
+    {
+      "original_pdf_page": 203,
+      "printed_page": "6-15",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主轴夹紧力及肘节",
+      "start_line": 634,
+      "end_line": 665
+    },
+    {
+      "original_pdf_page": 204,
+      "printed_page": "6-16",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "静止/驱动爪导套",
+      "start_line": 666,
+      "end_line": 693
+    },
+    {
+      "original_pdf_page": 205,
+      "printed_page": "6-17",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "静止/驱动爪导套",
+      "start_line": 694,
+      "end_line": 729
+    },
+    {
+      "original_pdf_page": 206,
+      "printed_page": "6-18",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "静止/驱动爪导套",
+      "start_line": 730,
+      "end_line": 771
+    },
+    {
+      "original_pdf_page": 207,
+      "printed_page": "6-19",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "静止/驱动爪导套",
+      "start_line": 772,
+      "end_line": 816
+    },
+    {
+      "original_pdf_page": 208,
+      "printed_page": "6-20",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "副轴夹紧力及肘节",
+      "start_line": 817,
+      "end_line": 853
+    },
+    {
+      "original_pdf_page": 209,
+      "printed_page": "6-21",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "副轴夹紧力及肘节",
+      "start_line": 854,
+      "end_line": 907
+    },
+    {
+      "original_pdf_page": 210,
+      "printed_page": "6-22",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "副轴夹紧力及肘节",
+      "start_line": 908,
+      "end_line": 943
+    },
+    {
+      "original_pdf_page": 211,
+      "printed_page": "6-23",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "副轴夹紧力及肘节",
+      "start_line": 944,
+      "end_line": 975
+    },
+    {
+      "original_pdf_page": 212,
+      "printed_page": "6-24",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "副轴夹紧力及肘节",
+      "start_line": 976,
+      "end_line": 1008
+    },
+    {
+      "original_pdf_page": 213,
+      "printed_page": "6-25",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "副轴夹紧力及肘节",
+      "start_line": 1009,
+      "end_line": 1040
+    },
+    {
+      "original_pdf_page": 214,
+      "printed_page": "6-26",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1041,
+      "end_line": 1096
+    },
+    {
+      "original_pdf_page": 215,
+      "printed_page": "6-27",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1097,
+      "end_line": 1125
+    },
+    {
+      "original_pdf_page": 216,
+      "printed_page": "6-28",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1126,
+      "end_line": 1160
+    },
+    {
+      "original_pdf_page": 217,
+      "printed_page": "6-29",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1161,
+      "end_line": 1195
+    },
+    {
+      "original_pdf_page": 218,
+      "printed_page": "6-30",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1196,
+      "end_line": 1234
+    },
+    {
+      "original_pdf_page": 219,
+      "printed_page": "6-31",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1235,
+      "end_line": 1268
+    },
+    {
+      "original_pdf_page": 220,
+      "printed_page": "6-32",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1269,
+      "end_line": 1305
+    },
+    {
+      "original_pdf_page": 221,
+      "printed_page": "6-33",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1306,
+      "end_line": 1356
+    },
+    {
+      "original_pdf_page": 222,
+      "printed_page": "6-34",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1357,
+      "end_line": 1392
+    },
+    {
+      "original_pdf_page": 223,
+      "printed_page": "6-35",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1393,
+      "end_line": 1419
+    },
+    {
+      "original_pdf_page": 224,
+      "printed_page": "6-36",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1420,
+      "end_line": 1454
+    },
+    {
+      "original_pdf_page": 225,
+      "printed_page": "6-37",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1455,
+      "end_line": 1488
+    },
+    {
+      "original_pdf_page": 226,
+      "printed_page": "6-38",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1489,
+      "end_line": 1529
+    },
+    {
+      "original_pdf_page": 227,
+      "printed_page": "6-39",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1530,
+      "end_line": 1573
+    },
+    {
+      "original_pdf_page": 228,
+      "printed_page": "6-40",
+      "excerpt_page": 40,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1574,
+      "end_line": 1604
+    },
+    {
+      "original_pdf_page": 229,
+      "printed_page": "6-41",
+      "excerpt_page": 41,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "导套座与无导套转换",
+      "start_line": 1605,
+      "end_line": 1646
+    },
+    {
+      "original_pdf_page": 399,
+      "printed_page": "9-13",
+      "excerpt_page": 42,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1647,
+      "end_line": 1699
+    },
+    {
+      "original_pdf_page": 400,
+      "printed_page": "9-14",
+      "excerpt_page": 43,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1700,
+      "end_line": 1753
+    },
+    {
+      "original_pdf_page": 401,
+      "printed_page": "9-15",
+      "excerpt_page": 44,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1754,
+      "end_line": 1796
+    },
+    {
+      "original_pdf_page": 402,
+      "printed_page": "9-16",
+      "excerpt_page": 45,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1797,
+      "end_line": 1859
+    },
+    {
+      "original_pdf_page": 403,
+      "printed_page": "9-17",
+      "excerpt_page": 46,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1860,
+      "end_line": 1893
+    },
+    {
+      "original_pdf_page": 404,
+      "printed_page": "9-18",
+      "excerpt_page": 47,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1894,
+      "end_line": 1910
+    },
+    {
+      "original_pdf_page": 405,
+      "printed_page": "9-19",
+      "excerpt_page": 48,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1911,
+      "end_line": 1946
+    },
+    {
+      "original_pdf_page": 406,
+      "printed_page": "9-20",
+      "excerpt_page": 49,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1947,
+      "end_line": 1987
+    },
+    {
+      "original_pdf_page": 407,
+      "printed_page": "9-21",
+      "excerpt_page": 50,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "无导套及直驱回转导套",
+      "start_line": 1988,
+      "end_line": 2026
+    }
+  ]
+}

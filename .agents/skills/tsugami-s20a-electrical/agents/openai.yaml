@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜电路图与信号追踪
+  short_description: 按原图追踪电源与I/O信号，核对图号、页号和版本差异
+  default_prompt: 请用 $tsugami-s20a-electrical 核对电路资料版本，并解释所需回路的连接关系。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

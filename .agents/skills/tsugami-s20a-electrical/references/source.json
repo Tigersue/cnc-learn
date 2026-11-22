@@ -1,0 +1,468 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "e4790e51ec5429ed0331da1048f99c35a1845ea15f1947a9cf08568693389da3",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-electrical",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      443,
+      485
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 56,
+      "end_line": 73
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 74,
+      "end_line": 116
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 117,
+      "end_line": 155
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 156,
+      "end_line": 213
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 214,
+      "end_line": 255
+    },
+    {
+      "original_pdf_page": 443,
+      "printed_page": "3281-E310 图纸 1/42",
+      "excerpt_page": 6,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "主电源与附属设备供电",
+      "start_line": 256,
+      "end_line": 265
+    },
+    {
+      "original_pdf_page": 444,
+      "printed_page": "3281-E310 图纸 2/42",
+      "excerpt_page": 7,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "主电源与附属设备供电",
+      "start_line": 266,
+      "end_line": 275
+    },
+    {
+      "original_pdf_page": 445,
+      "printed_page": "3281-E310 图纸 3/42",
+      "excerpt_page": 8,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "主电源与附属设备供电",
+      "start_line": 276,
+      "end_line": 285
+    },
+    {
+      "original_pdf_page": 446,
+      "printed_page": "3281-E310 图纸 4/42",
+      "excerpt_page": 9,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "主电源与附属设备供电",
+      "start_line": 286,
+      "end_line": 295
+    },
+    {
+      "original_pdf_page": 447,
+      "printed_page": "3281-E310 图纸 5/42",
+      "excerpt_page": 10,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "主电源与附属设备供电",
+      "start_line": 296,
+      "end_line": 305
+    },
+    {
+      "original_pdf_page": 448,
+      "printed_page": "3281-E310 图纸 6/42",
+      "excerpt_page": 11,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 306,
+      "end_line": 315
+    },
+    {
+      "original_pdf_page": 449,
+      "printed_page": "3281-E310 图纸 7/42",
+      "excerpt_page": 12,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 316,
+      "end_line": 325
+    },
+    {
+      "original_pdf_page": 450,
+      "printed_page": "3281-E310 图纸 8/42",
+      "excerpt_page": 13,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 326,
+      "end_line": 335
+    },
+    {
+      "original_pdf_page": 451,
+      "printed_page": "3281-E310 图纸 9/42",
+      "excerpt_page": 14,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 336,
+      "end_line": 345
+    },
+    {
+      "original_pdf_page": 452,
+      "printed_page": "3281-E310 图纸 10/42",
+      "excerpt_page": 15,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 346,
+      "end_line": 355
+    },
+    {
+      "original_pdf_page": 453,
+      "printed_page": "3281-E310 图纸 11/42",
+      "excerpt_page": 16,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 356,
+      "end_line": 365
+    },
+    {
+      "original_pdf_page": 454,
+      "printed_page": "3281-E310 图纸 12/42",
+      "excerpt_page": 17,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 366,
+      "end_line": 375
+    },
+    {
+      "original_pdf_page": 455,
+      "printed_page": "3281-E310 图纸 13/42",
+      "excerpt_page": 18,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "NC及功率/伺服主轴连接",
+      "start_line": 376,
+      "end_line": 385
+    },
+    {
+      "original_pdf_page": 456,
+      "printed_page": "3281-E310 图纸 14/42",
+      "excerpt_page": 19,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "I/O公共连接与急停等",
+      "start_line": 386,
+      "end_line": 395
+    },
+    {
+      "original_pdf_page": 457,
+      "printed_page": "3281-E310 图纸 15/42",
+      "excerpt_page": 20,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "I/O公共连接与急停等",
+      "start_line": 396,
+      "end_line": 405
+    },
+    {
+      "original_pdf_page": 458,
+      "printed_page": "3281-E310 图纸 16/42",
+      "excerpt_page": 21,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "I/O公共连接与急停等",
+      "start_line": 406,
+      "end_line": 415
+    },
+    {
+      "original_pdf_page": 459,
+      "printed_page": "3281-E310 图纸 17/42",
+      "excerpt_page": 22,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 416,
+      "end_line": 425
+    },
+    {
+      "original_pdf_page": 460,
+      "printed_page": "3281-E310 图纸 18/42",
+      "excerpt_page": 23,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 426,
+      "end_line": 435
+    },
+    {
+      "original_pdf_page": 461,
+      "printed_page": "3281-E310 图纸 19/42",
+      "excerpt_page": 24,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 436,
+      "end_line": 445
+    },
+    {
+      "original_pdf_page": 462,
+      "printed_page": "3281-E310 图纸 20/42",
+      "excerpt_page": 25,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 446,
+      "end_line": 455
+    },
+    {
+      "original_pdf_page": 463,
+      "printed_page": "3281-E310 图纸 21/42",
+      "excerpt_page": 26,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 456,
+      "end_line": 465
+    },
+    {
+      "original_pdf_page": 464,
+      "printed_page": "3281-E310 图纸 22/42",
+      "excerpt_page": 27,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 466,
+      "end_line": 475
+    },
+    {
+      "original_pdf_page": 465,
+      "printed_page": "3281-E310 图纸 23/42",
+      "excerpt_page": 28,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 476,
+      "end_line": 485
+    },
+    {
+      "original_pdf_page": 466,
+      "printed_page": "3281-E310 图纸 24/42",
+      "excerpt_page": 29,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 486,
+      "end_line": 495
+    },
+    {
+      "original_pdf_page": 467,
+      "printed_page": "3281-E310 图纸 25/42",
+      "excerpt_page": 30,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 496,
+      "end_line": 505
+    },
+    {
+      "original_pdf_page": 468,
+      "printed_page": "3281-E310 图纸 26/42",
+      "excerpt_page": 31,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "机器输入与送料接口",
+      "start_line": 506,
+      "end_line": 515
+    },
+    {
+      "original_pdf_page": 469,
+      "printed_page": "3281-E310 图纸 27/42",
+      "excerpt_page": 32,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 516,
+      "end_line": 525
+    },
+    {
+      "original_pdf_page": 470,
+      "printed_page": "3281-E310 图纸 28/42",
+      "excerpt_page": 33,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 526,
+      "end_line": 535
+    },
+    {
+      "original_pdf_page": 471,
+      "printed_page": "3281-E310 图纸 29/42",
+      "excerpt_page": 34,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 536,
+      "end_line": 545
+    },
+    {
+      "original_pdf_page": 472,
+      "printed_page": "3281-E310 图纸 30/42",
+      "excerpt_page": 35,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 546,
+      "end_line": 555
+    },
+    {
+      "original_pdf_page": 473,
+      "printed_page": "3281-E310 图纸 31/42",
+      "excerpt_page": 36,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 556,
+      "end_line": 565
+    },
+    {
+      "original_pdf_page": 474,
+      "printed_page": "3281-E310 图纸 32/42",
+      "excerpt_page": 37,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 566,
+      "end_line": 575
+    },
+    {
+      "original_pdf_page": 475,
+      "printed_page": "3281-E310 图纸 33/42",
+      "excerpt_page": 38,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 576,
+      "end_line": 585
+    },
+    {
+      "original_pdf_page": 476,
+      "printed_page": "3281-E310 图纸 34/42",
+      "excerpt_page": 39,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "继电器和机器输出",
+      "start_line": 586,
+      "end_line": 595
+    },
+    {
+      "original_pdf_page": 477,
+      "printed_page": "3281-E310 图纸 35/42",
+      "excerpt_page": 40,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "操作面板输入与开关",
+      "start_line": 596,
+      "end_line": 605
+    },
+    {
+      "original_pdf_page": 478,
+      "printed_page": "3281-E310 图纸 36/42",
+      "excerpt_page": 41,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "操作面板输入与开关",
+      "start_line": 606,
+      "end_line": 615
+    },
+    {
+      "original_pdf_page": 479,
+      "printed_page": "3281-E310 图纸 37/42",
+      "excerpt_page": 42,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "操作面板输入与开关",
+      "start_line": 616,
+      "end_line": 625
+    },
+    {
+      "original_pdf_page": 480,
+      "printed_page": "3281-E310 图纸 38/42",
+      "excerpt_page": 43,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "操作面板输入与开关",
+      "start_line": 626,
+      "end_line": 635
+    },
+    {
+      "original_pdf_page": 481,
+      "printed_page": "3281-E310 图纸 39/42",
+      "excerpt_page": 44,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "操作面板输入与开关",
+      "start_line": 636,
+      "end_line": 645
+    },
+    {
+      "original_pdf_page": 482,
+      "printed_page": "3281-E310 图纸 40/42",
+      "excerpt_page": 45,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "面板输出及布置",
+      "start_line": 646,
+      "end_line": 655
+    },
+    {
+      "original_pdf_page": 483,
+      "printed_page": "3281-E310 图纸 41/42",
+      "excerpt_page": 46,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "面板输出及布置",
+      "start_line": 656,
+      "end_line": 665
+    },
+    {
+      "original_pdf_page": 484,
+      "printed_page": "3281-E310 图纸 42/42",
+      "excerpt_page": 47,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "面板输出及布置",
+      "start_line": 666,
+      "end_line": 675
+    },
+    {
+      "original_pdf_page": 485,
+      "printed_page": "PMC标题资料 1",
+      "excerpt_page": 48,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "PMC标题资料，非梯形图",
+      "start_line": 676,
+      "end_line": 685
+    }
+  ]
+}

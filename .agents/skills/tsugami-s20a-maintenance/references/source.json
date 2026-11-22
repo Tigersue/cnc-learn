@@ -1,0 +1,363 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "6913a757872bf07e8b86ef6c23421316c67a67267a4c4d04ab434caba85a1da2",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-maintenance",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      146,
+      147
+    ],
+    [
+      151,
+      156
+    ],
+    [
+      189,
+      193
+    ],
+    [
+      230,
+      246
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 43,
+      "end_line": 60
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 61,
+      "end_line": 103
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 104,
+      "end_line": 142
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 143,
+      "end_line": 200
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 201,
+      "end_line": 242
+    },
+    {
+      "original_pdf_page": 146,
+      "printed_page": "4-91",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "定期维护画面",
+      "start_line": 243,
+      "end_line": 282
+    },
+    {
+      "original_pdf_page": 147,
+      "printed_page": "4-92",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "定期维护画面",
+      "start_line": 283,
+      "end_line": 319
+    },
+    {
+      "original_pdf_page": 151,
+      "printed_page": "4-96",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀具计数、预报和解除",
+      "start_line": 320,
+      "end_line": 368
+    },
+    {
+      "original_pdf_page": 152,
+      "printed_page": "4-97",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀具计数、预报和解除",
+      "start_line": 369,
+      "end_line": 395
+    },
+    {
+      "original_pdf_page": 153,
+      "printed_page": "4-98",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀具计数、预报和解除",
+      "start_line": 396,
+      "end_line": 443
+    },
+    {
+      "original_pdf_page": 154,
+      "printed_page": "4-99",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀具计数、预报和解除",
+      "start_line": 444,
+      "end_line": 478
+    },
+    {
+      "original_pdf_page": 155,
+      "printed_page": "4-100",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀具计数、预报和解除",
+      "start_line": 479,
+      "end_line": 509
+    },
+    {
+      "original_pdf_page": 156,
+      "printed_page": "4-101",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀具计数、预报和解除",
+      "start_line": 510,
+      "end_line": 539
+    },
+    {
+      "original_pdf_page": 189,
+      "printed_page": "6-1",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "日常至五年点检",
+      "start_line": 540,
+      "end_line": 604
+    },
+    {
+      "original_pdf_page": 190,
+      "printed_page": "6-2",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "日常至五年点检",
+      "start_line": 605,
+      "end_line": 636
+    },
+    {
+      "original_pdf_page": 191,
+      "printed_page": "6-3",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "日常至五年点检",
+      "start_line": 637,
+      "end_line": 699
+    },
+    {
+      "original_pdf_page": 192,
+      "printed_page": "6-4",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "日常至五年点检",
+      "start_line": 700,
+      "end_line": 716
+    },
+    {
+      "original_pdf_page": 193,
+      "printed_page": "6-5",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "日常至五年点检",
+      "start_line": 717,
+      "end_line": 729
+    },
+    {
+      "original_pdf_page": 230,
+      "printed_page": "6-42",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "油液与空压单元",
+      "start_line": 730,
+      "end_line": 785
+    },
+    {
+      "original_pdf_page": 231,
+      "printed_page": "6-43",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "油液与空压单元",
+      "start_line": 786,
+      "end_line": 802
+    },
+    {
+      "original_pdf_page": 232,
+      "printed_page": "6-44",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "油液与空压单元",
+      "start_line": 803,
+      "end_line": 844
+    },
+    {
+      "original_pdf_page": 233,
+      "printed_page": "6-45",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "油液与空压单元",
+      "start_line": 845,
+      "end_line": 861
+    },
+    {
+      "original_pdf_page": 234,
+      "printed_page": "6-46",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "过滤器、润滑量与动力头润滑脂",
+      "start_line": 862,
+      "end_line": 892
+    },
+    {
+      "original_pdf_page": 235,
+      "printed_page": "6-47",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "过滤器、润滑量与动力头润滑脂",
+      "start_line": 893,
+      "end_line": 954
+    },
+    {
+      "original_pdf_page": 236,
+      "printed_page": "6-48",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "过滤器、润滑量与动力头润滑脂",
+      "start_line": 955,
+      "end_line": 987
+    },
+    {
+      "original_pdf_page": 237,
+      "printed_page": "6-49",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "过滤器、润滑量与动力头润滑脂",
+      "start_line": 988,
+      "end_line": 1029
+    },
+    {
+      "original_pdf_page": 238,
+      "printed_page": "6-50",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "过滤器、润滑量与动力头润滑脂",
+      "start_line": 1030,
+      "end_line": 1076
+    },
+    {
+      "original_pdf_page": 239,
+      "printed_page": "6-51",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量传感器与PMC诊断",
+      "start_line": 1077,
+      "end_line": 1123
+    },
+    {
+      "original_pdf_page": 240,
+      "printed_page": "6-52",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量传感器与PMC诊断",
+      "start_line": 1124,
+      "end_line": 1176
+    },
+    {
+      "original_pdf_page": 241,
+      "printed_page": "6-53",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量传感器与PMC诊断",
+      "start_line": 1177,
+      "end_line": 1204
+    },
+    {
+      "original_pdf_page": 242,
+      "printed_page": "6-54",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量传感器与PMC诊断",
+      "start_line": 1205,
+      "end_line": 1246
+    },
+    {
+      "original_pdf_page": 243,
+      "printed_page": "6-55",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "流量传感器与PMC诊断",
+      "start_line": 1247,
+      "end_line": 1275
+    },
+    {
+      "original_pdf_page": 244,
+      "printed_page": "6-56",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削油感应及长期停机后准备",
+      "start_line": 1276,
+      "end_line": 1318
+    },
+    {
+      "original_pdf_page": 245,
+      "printed_page": "6-57",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削油感应及长期停机后准备",
+      "start_line": 1319,
+      "end_line": 1342
+    },
+    {
+      "original_pdf_page": 246,
+      "printed_page": "6-58",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削油感应及长期停机后准备",
+      "start_line": 1343,
+      "end_line": 1375
+    }
+  ]
+}

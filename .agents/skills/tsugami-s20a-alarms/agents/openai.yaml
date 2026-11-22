@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜报警与故障排查
+  short_description: 依手册按完整报警号核对含义、触发条件和可验证的排查顺序，附页码
+  default_prompt: 请用 $tsugami-s20a-alarms 按报警号和画面原文说明原因与核查步骤。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

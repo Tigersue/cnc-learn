@@ -1,0 +1,342 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "80db2705f957446ffac348ba258a2c6c2169cd8ab8fc9245e3fb552c787a63d6",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-specifications",
+  "primary_ranges": [
+    [
+      27,
+      48
+    ],
+    [
+      262,
+      268
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 42,
+      "end_line": 59
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 60,
+      "end_line": 102
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 103,
+      "end_line": 141
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 142,
+      "end_line": 199
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 200,
+      "end_line": 241
+    },
+    {
+      "original_pdf_page": 27,
+      "printed_page": "2-1",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "总体及部件名称",
+      "start_line": 242,
+      "end_line": 301
+    },
+    {
+      "original_pdf_page": 28,
+      "printed_page": "2-2",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "总体及部件名称",
+      "start_line": 302,
+      "end_line": 320
+    },
+    {
+      "original_pdf_page": 29,
+      "printed_page": "2-3",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "总体及部件名称",
+      "start_line": 321,
+      "end_line": 337
+    },
+    {
+      "original_pdf_page": 30,
+      "printed_page": "2-4",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域与总体图",
+      "start_line": 338,
+      "end_line": 356
+    },
+    {
+      "original_pdf_page": 31,
+      "printed_page": "2-5",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域与总体图",
+      "start_line": 357,
+      "end_line": 373
+    },
+    {
+      "original_pdf_page": 32,
+      "printed_page": "2-6",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域与总体图",
+      "start_line": 374,
+      "end_line": 395
+    },
+    {
+      "original_pdf_page": 33,
+      "printed_page": "2-7",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削/机械系统及配套",
+      "start_line": 396,
+      "end_line": 418
+    },
+    {
+      "original_pdf_page": 34,
+      "printed_page": "2-8",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削/机械系统及配套",
+      "start_line": 419,
+      "end_line": 448
+    },
+    {
+      "original_pdf_page": 35,
+      "printed_page": "2-9",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削/机械系统及配套",
+      "start_line": 449,
+      "end_line": 478
+    },
+    {
+      "original_pdf_page": 36,
+      "printed_page": "2-10",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削/机械系统及配套",
+      "start_line": 479,
+      "end_line": 505
+    },
+    {
+      "original_pdf_page": 37,
+      "printed_page": "2-11",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 506,
+      "end_line": 566
+    },
+    {
+      "original_pdf_page": 38,
+      "printed_page": "2-12",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 567,
+      "end_line": 616
+    },
+    {
+      "original_pdf_page": 39,
+      "printed_page": "2-13",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 617,
+      "end_line": 671
+    },
+    {
+      "original_pdf_page": 40,
+      "printed_page": "2-14",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 672,
+      "end_line": 706
+    },
+    {
+      "original_pdf_page": 41,
+      "printed_page": "2-15",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 707,
+      "end_line": 759
+    },
+    {
+      "original_pdf_page": 42,
+      "printed_page": "2-16",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 760,
+      "end_line": 809
+    },
+    {
+      "original_pdf_page": 43,
+      "printed_page": "2-17",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 810,
+      "end_line": 852
+    },
+    {
+      "original_pdf_page": 44,
+      "printed_page": "2-18",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 853,
+      "end_line": 913
+    },
+    {
+      "original_pdf_page": 45,
+      "printed_page": "2-19",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 914,
+      "end_line": 976
+    },
+    {
+      "original_pdf_page": 46,
+      "printed_page": "2-20",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 977,
+      "end_line": 1039
+    },
+    {
+      "original_pdf_page": 47,
+      "printed_page": "2-21",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 1040,
+      "end_line": 1080
+    },
+    {
+      "original_pdf_page": 48,
+      "printed_page": "2-22",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "标准规格、工具与选配",
+      "start_line": 1081,
+      "end_line": 1102
+    },
+    {
+      "original_pdf_page": 262,
+      "printed_page": "6-74",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1103,
+      "end_line": 1158
+    },
+    {
+      "original_pdf_page": 263,
+      "printed_page": "6-75",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1159,
+      "end_line": 1214
+    },
+    {
+      "original_pdf_page": 264,
+      "printed_page": "6-76",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1215,
+      "end_line": 1266
+    },
+    {
+      "original_pdf_page": 265,
+      "printed_page": "6-77",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1267,
+      "end_line": 1291
+    },
+    {
+      "original_pdf_page": 266,
+      "printed_page": "6-78",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1292,
+      "end_line": 1323
+    },
+    {
+      "original_pdf_page": 267,
+      "printed_page": "6-79",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1324,
+      "end_line": 1356
+    },
+    {
+      "original_pdf_page": 268,
+      "printed_page": "6-80",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械、电控备件与订购",
+      "start_line": 1357,
+      "end_line": 1389
+    }
+  ]
+}

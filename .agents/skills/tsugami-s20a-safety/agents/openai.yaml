@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜安全与联锁
+  short_description: 依手册解释门锁、送料与干涉保护的触发条件及安全核查方法，附页码
+  default_prompt: 请用 $tsugami-s20a-safety 解释当前联锁限制，并列出可核查的条件。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

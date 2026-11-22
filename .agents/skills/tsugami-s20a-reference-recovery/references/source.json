@@ -1,0 +1,292 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "a0a85836a1ce8a7b09449d5d90be61bdd9b25be817e09ba34558e29269e4bf43",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-reference-recovery",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      124,
+      131
+    ],
+    [
+      247,
+      261
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 36,
+      "end_line": 53
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 54,
+      "end_line": 96
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 97,
+      "end_line": 135
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 136,
+      "end_line": 193
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 194,
+      "end_line": 235
+    },
+    {
+      "original_pdf_page": 124,
+      "printed_page": "4-69",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 236,
+      "end_line": 269
+    },
+    {
+      "original_pdf_page": 125,
+      "printed_page": "4-70",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 270,
+      "end_line": 310
+    },
+    {
+      "original_pdf_page": 126,
+      "printed_page": "4-71",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 311,
+      "end_line": 341
+    },
+    {
+      "original_pdf_page": 127,
+      "printed_page": "4-72",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 342,
+      "end_line": 375
+    },
+    {
+      "original_pdf_page": 128,
+      "printed_page": "4-73",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 376,
+      "end_line": 413
+    },
+    {
+      "original_pdf_page": 129,
+      "printed_page": "4-74",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 414,
+      "end_line": 443
+    },
+    {
+      "original_pdf_page": 130,
+      "printed_page": "4-75",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 444,
+      "end_line": 474
+    },
+    {
+      "original_pdf_page": 131,
+      "printed_page": "4-76",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "参数备份路径",
+      "start_line": 475,
+      "end_line": 511
+    },
+    {
+      "original_pdf_page": 247,
+      "printed_page": "6-59",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "原点设定适用前提",
+      "start_line": 512,
+      "end_line": 561
+    },
+    {
+      "original_pdf_page": 248,
+      "printed_page": "6-60",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "X1/Z1/X2与Z2原点设定",
+      "start_line": 562,
+      "end_line": 631
+    },
+    {
+      "original_pdf_page": 249,
+      "printed_page": "6-61",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "X1/Z1/X2与Z2原点设定",
+      "start_line": 632,
+      "end_line": 673
+    },
+    {
+      "original_pdf_page": 250,
+      "printed_page": "6-62",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "X1/Z1/X2与Z2原点设定",
+      "start_line": 674,
+      "end_line": 736
+    },
+    {
+      "original_pdf_page": 251,
+      "printed_page": "6-63",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "X1/Z1/X2与Z2原点设定",
+      "start_line": 737,
+      "end_line": 768
+    },
+    {
+      "original_pdf_page": 252,
+      "printed_page": "6-64",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "各轴指标图",
+      "start_line": 769,
+      "end_line": 810
+    },
+    {
+      "original_pdf_page": 253,
+      "printed_page": "6-65",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "K继电器与写保护恢复",
+      "start_line": 811,
+      "end_line": 855
+    },
+    {
+      "original_pdf_page": 254,
+      "printed_page": "6-66",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "K继电器与写保护恢复",
+      "start_line": 856,
+      "end_line": 879
+    },
+    {
+      "original_pdf_page": 255,
+      "printed_page": "6-67",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "K继电器与写保护恢复",
+      "start_line": 880,
+      "end_line": 909
+    },
+    {
+      "original_pdf_page": 256,
+      "printed_page": "6-68",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "K继电器与写保护恢复",
+      "start_line": 910,
+      "end_line": 934
+    },
+    {
+      "original_pdf_page": 257,
+      "printed_page": "6-69",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "K继电器与写保护恢复",
+      "start_line": 935,
+      "end_line": 977
+    },
+    {
+      "original_pdf_page": 258,
+      "printed_page": "6-70",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "K继电器与写保护恢复",
+      "start_line": 978,
+      "end_line": 1002
+    },
+    {
+      "original_pdf_page": 259,
+      "printed_page": "6-71",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主副轴相位",
+      "start_line": 1003,
+      "end_line": 1049
+    },
+    {
+      "original_pdf_page": 260,
+      "printed_page": "6-72",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "存储器与绝对编码器电池",
+      "start_line": 1050,
+      "end_line": 1102
+    },
+    {
+      "original_pdf_page": 261,
+      "printed_page": "6-73",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "存储器与绝对编码器电池",
+      "start_line": 1103,
+      "end_line": 1150
+    }
+  ]
+}

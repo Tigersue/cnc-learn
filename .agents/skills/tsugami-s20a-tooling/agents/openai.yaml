@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜装刀与对芯
+  short_description: 依手册按刀位和刀座查装刀基准、伸出关系及对芯工具用法，附页码
+  default_prompt: 请用 $tsugami-s20a-tooling 说明这把刀的安装基准和对芯检查方法。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

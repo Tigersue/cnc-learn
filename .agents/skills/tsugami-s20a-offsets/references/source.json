@@ -1,0 +1,388 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "04c9396eae19da539e6b1dbfe968a392ac0c698b6ff7632d94e8a7fcf760d58f",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-offsets",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      87,
+      90
+    ],
+    [
+      132,
+      136
+    ],
+    [
+      148,
+      150
+    ],
+    [
+      247,
+      247
+    ],
+    [
+      273,
+      276
+    ],
+    [
+      302,
+      310
+    ],
+    [
+      314,
+      317
+    ],
+    [
+      330,
+      330
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 44,
+      "end_line": 61
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 62,
+      "end_line": 104
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 105,
+      "end_line": 143
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 144,
+      "end_line": 201
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 202,
+      "end_line": 243
+    },
+    {
+      "original_pdf_page": 87,
+      "printed_page": "4-32",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "基准刀尖与装刀",
+      "start_line": 244,
+      "end_line": 283
+    },
+    {
+      "original_pdf_page": 88,
+      "printed_page": "4-33",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "基准刀尖与装刀",
+      "start_line": 284,
+      "end_line": 318
+    },
+    {
+      "original_pdf_page": 89,
+      "printed_page": "4-34",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "基准刀尖与装刀",
+      "start_line": 319,
+      "end_line": 362
+    },
+    {
+      "original_pdf_page": 90,
+      "printed_page": "4-35",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "基准刀尖与装刀",
+      "start_line": 363,
+      "end_line": 401
+    },
+    {
+      "original_pdf_page": 132,
+      "printed_page": "4-77",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "T轴补正画面及实例",
+      "start_line": 402,
+      "end_line": 440
+    },
+    {
+      "original_pdf_page": 133,
+      "printed_page": "4-78",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "T轴补正画面及实例",
+      "start_line": 441,
+      "end_line": 481
+    },
+    {
+      "original_pdf_page": 134,
+      "printed_page": "4-79",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "T轴补正画面及实例",
+      "start_line": 482,
+      "end_line": 514
+    },
+    {
+      "original_pdf_page": 135,
+      "printed_page": "4-80",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "T轴补正画面及实例",
+      "start_line": 515,
+      "end_line": 552
+    },
+    {
+      "original_pdf_page": 136,
+      "printed_page": "4-81",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "T轴补正画面及实例",
+      "start_line": 553,
+      "end_line": 599
+    },
+    {
+      "original_pdf_page": 148,
+      "printed_page": "4-93",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖中心高试切计算",
+      "start_line": 600,
+      "end_line": 646
+    },
+    {
+      "original_pdf_page": 149,
+      "printed_page": "4-94",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖中心高试切计算",
+      "start_line": 647,
+      "end_line": 684
+    },
+    {
+      "original_pdf_page": 150,
+      "printed_page": "4-95",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖中心高试切计算",
+      "start_line": 685,
+      "end_line": 729
+    },
+    {
+      "original_pdf_page": 247,
+      "printed_page": "6-59",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "机械原点的用途与恢复前提",
+      "start_line": 730,
+      "end_line": 779
+    },
+    {
+      "original_pdf_page": 273,
+      "printed_page": "7-5",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系和地址",
+      "start_line": 780,
+      "end_line": 796
+    },
+    {
+      "original_pdf_page": 274,
+      "printed_page": "7-6",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系和地址",
+      "start_line": 797,
+      "end_line": 862
+    },
+    {
+      "original_pdf_page": 275,
+      "printed_page": "7-7",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系和地址",
+      "start_line": 863,
+      "end_line": 891
+    },
+    {
+      "original_pdf_page": 276,
+      "printed_page": "7-8",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系和地址",
+      "start_line": 892,
+      "end_line": 944
+    },
+    {
+      "original_pdf_page": 302,
+      "printed_page": "7-34",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 945,
+      "end_line": 990
+    },
+    {
+      "original_pdf_page": 303,
+      "printed_page": "7-35",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 991,
+      "end_line": 1035
+    },
+    {
+      "original_pdf_page": 304,
+      "printed_page": "7-36",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1036,
+      "end_line": 1094
+    },
+    {
+      "original_pdf_page": 305,
+      "printed_page": "7-37",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1095,
+      "end_line": 1136
+    },
+    {
+      "original_pdf_page": 306,
+      "printed_page": "7-38",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1137,
+      "end_line": 1196
+    },
+    {
+      "original_pdf_page": 307,
+      "printed_page": "7-39",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1197,
+      "end_line": 1250
+    },
+    {
+      "original_pdf_page": 308,
+      "printed_page": "7-40",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1251,
+      "end_line": 1306
+    },
+    {
+      "original_pdf_page": 309,
+      "printed_page": "7-41",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1307,
+      "end_line": 1367
+    },
+    {
+      "original_pdf_page": 310,
+      "printed_page": "7-42",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50坐标移动及转速限制",
+      "start_line": 1368,
+      "end_line": 1400
+    },
+    {
+      "original_pdf_page": 314,
+      "printed_page": "7-46",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150与G300/G310",
+      "start_line": 1401,
+      "end_line": 1458
+    },
+    {
+      "original_pdf_page": 315,
+      "printed_page": "7-47",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150与G300/G310",
+      "start_line": 1459,
+      "end_line": 1506
+    },
+    {
+      "original_pdf_page": 316,
+      "printed_page": "7-48",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150与G300/G310",
+      "start_line": 1507,
+      "end_line": 1556
+    },
+    {
+      "original_pdf_page": 317,
+      "printed_page": "7-49",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150与G300/G310",
+      "start_line": 1557,
+      "end_line": 1608
+    },
+    {
+      "original_pdf_page": 330,
+      "printed_page": "7-62",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "T编码",
+      "start_line": 1609,
+      "end_line": 1644
+    }
+  ]
+}

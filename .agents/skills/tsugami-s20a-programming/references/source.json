@@ -1,0 +1,508 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "4f96c42c4bb13dd33baf659bb941fe597d80557e600a610eaa583b6a660950b6",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-programming",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      269,
+      276
+    ],
+    [
+      293,
+      331
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 60,
+      "end_line": 77
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 78,
+      "end_line": 120
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 121,
+      "end_line": 159
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 160,
+      "end_line": 217
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 218,
+      "end_line": 259
+    },
+    {
+      "original_pdf_page": 269,
+      "printed_page": "7-1",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "文字、地址、程序段与构成",
+      "start_line": 260,
+      "end_line": 317
+    },
+    {
+      "original_pdf_page": 270,
+      "printed_page": "7-2",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "文字、地址、程序段与构成",
+      "start_line": 318,
+      "end_line": 366
+    },
+    {
+      "original_pdf_page": 271,
+      "printed_page": "7-3",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "文字、地址、程序段与构成",
+      "start_line": 367,
+      "end_line": 421
+    },
+    {
+      "original_pdf_page": 272,
+      "printed_page": "7-4",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "文字、地址、程序段与构成",
+      "start_line": 422,
+      "end_line": 483
+    },
+    {
+      "original_pdf_page": 273,
+      "printed_page": "7-5",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系及地址功能",
+      "start_line": 484,
+      "end_line": 500
+    },
+    {
+      "original_pdf_page": 274,
+      "printed_page": "7-6",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系及地址功能",
+      "start_line": 501,
+      "end_line": 566
+    },
+    {
+      "original_pdf_page": 275,
+      "printed_page": "7-7",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系及地址功能",
+      "start_line": 567,
+      "end_line": 595
+    },
+    {
+      "original_pdf_page": 276,
+      "printed_page": "7-8",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "坐标系及地址功能",
+      "start_line": 596,
+      "end_line": 648
+    },
+    {
+      "original_pdf_page": 293,
+      "printed_page": "7-25",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G代码表及模态",
+      "start_line": 649,
+      "end_line": 705
+    },
+    {
+      "original_pdf_page": 294,
+      "printed_page": "7-26",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G代码表及模态",
+      "start_line": 706,
+      "end_line": 753
+    },
+    {
+      "original_pdf_page": 295,
+      "printed_page": "7-27",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G代码表及模态",
+      "start_line": 754,
+      "end_line": 793
+    },
+    {
+      "original_pdf_page": 296,
+      "printed_page": "7-28",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G00/G01",
+      "start_line": 794,
+      "end_line": 850
+    },
+    {
+      "original_pdf_page": 297,
+      "printed_page": "7-29",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G00/G01",
+      "start_line": 851,
+      "end_line": 886
+    },
+    {
+      "original_pdf_page": 298,
+      "printed_page": "7-30",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G00/G01",
+      "start_line": 887,
+      "end_line": 923
+    },
+    {
+      "original_pdf_page": 299,
+      "printed_page": "7-31",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G02/G03圆弧与各刀台方向图",
+      "start_line": 924,
+      "end_line": 986
+    },
+    {
+      "original_pdf_page": 300,
+      "printed_page": "7-32",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G02/G03圆弧与各刀台方向图",
+      "start_line": 987,
+      "end_line": 1036
+    },
+    {
+      "original_pdf_page": 301,
+      "printed_page": "7-33",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G04延时",
+      "start_line": 1037,
+      "end_line": 1081
+    },
+    {
+      "original_pdf_page": 302,
+      "printed_page": "7-34",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1082,
+      "end_line": 1127
+    },
+    {
+      "original_pdf_page": 303,
+      "printed_page": "7-35",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1128,
+      "end_line": 1172
+    },
+    {
+      "original_pdf_page": 304,
+      "printed_page": "7-36",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1173,
+      "end_line": 1231
+    },
+    {
+      "original_pdf_page": 305,
+      "printed_page": "7-37",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1232,
+      "end_line": 1273
+    },
+    {
+      "original_pdf_page": 306,
+      "printed_page": "7-38",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1274,
+      "end_line": 1333
+    },
+    {
+      "original_pdf_page": 307,
+      "printed_page": "7-39",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1334,
+      "end_line": 1387
+    },
+    {
+      "original_pdf_page": 308,
+      "printed_page": "7-40",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1388,
+      "end_line": 1443
+    },
+    {
+      "original_pdf_page": 309,
+      "printed_page": "7-41",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1444,
+      "end_line": 1504
+    },
+    {
+      "original_pdf_page": 310,
+      "printed_page": "7-42",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1505,
+      "end_line": 1537
+    },
+    {
+      "original_pdf_page": 311,
+      "printed_page": "7-43",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "刀尖R、G50与固定循环",
+      "start_line": 1538,
+      "end_line": 1602
+    },
+    {
+      "original_pdf_page": 312,
+      "printed_page": "7-44",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "线速度与进给模式",
+      "start_line": 1603,
+      "end_line": 1665
+    },
+    {
+      "original_pdf_page": 313,
+      "printed_page": "7-45",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "线速度与进给模式",
+      "start_line": 1666,
+      "end_line": 1705
+    },
+    {
+      "original_pdf_page": 314,
+      "printed_page": "7-46",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150/G300/G310",
+      "start_line": 1706,
+      "end_line": 1763
+    },
+    {
+      "original_pdf_page": 315,
+      "printed_page": "7-47",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150/G300/G310",
+      "start_line": 1764,
+      "end_line": 1811
+    },
+    {
+      "original_pdf_page": 316,
+      "printed_page": "7-48",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150/G300/G310",
+      "start_line": 1812,
+      "end_line": 1861
+    },
+    {
+      "original_pdf_page": 317,
+      "printed_page": "7-49",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G150/G300/G310",
+      "start_line": 1862,
+      "end_line": 1913
+    },
+    {
+      "original_pdf_page": 318,
+      "printed_page": "7-50",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G184横向攻丝",
+      "start_line": 1914,
+      "end_line": 1964
+    },
+    {
+      "original_pdf_page": 319,
+      "printed_page": "7-51",
+      "excerpt_page": 40,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G184横向攻丝",
+      "start_line": 1965,
+      "end_line": 2009
+    },
+    {
+      "original_pdf_page": 320,
+      "printed_page": "7-52",
+      "excerpt_page": 41,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G184横向攻丝",
+      "start_line": 2010,
+      "end_line": 2047
+    },
+    {
+      "original_pdf_page": 321,
+      "printed_page": "7-53",
+      "excerpt_page": 42,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "G84攻丝扫描页",
+      "start_line": 2048,
+      "end_line": 2057
+    },
+    {
+      "original_pdf_page": 322,
+      "printed_page": "7-54",
+      "excerpt_page": 43,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "G84攻丝扫描页",
+      "start_line": 2058,
+      "end_line": 2067
+    },
+    {
+      "original_pdf_page": 323,
+      "printed_page": "7-55",
+      "excerpt_page": 44,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "G84攻丝扫描页",
+      "start_line": 2068,
+      "end_line": 2077
+    },
+    {
+      "original_pdf_page": 324,
+      "printed_page": "7-56",
+      "excerpt_page": 45,
+      "text_status": "无可用文字层：查看原图",
+      "topic": "G84攻丝扫描页",
+      "start_line": 2078,
+      "end_line": 2087
+    },
+    {
+      "original_pdf_page": 325,
+      "printed_page": "7-57",
+      "excerpt_page": 46,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G186背面横向攻丝",
+      "start_line": 2088,
+      "end_line": 2135
+    },
+    {
+      "original_pdf_page": 326,
+      "printed_page": "7-58",
+      "excerpt_page": 47,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G186背面横向攻丝",
+      "start_line": 2136,
+      "end_line": 2180
+    },
+    {
+      "original_pdf_page": 327,
+      "printed_page": "7-59",
+      "excerpt_page": 48,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "G186背面横向攻丝",
+      "start_line": 2181,
+      "end_line": 2218
+    },
+    {
+      "original_pdf_page": 328,
+      "printed_page": "7-60",
+      "excerpt_page": 49,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S、T与程序起止",
+      "start_line": 2219,
+      "end_line": 2257
+    },
+    {
+      "original_pdf_page": 329,
+      "printed_page": "7-61",
+      "excerpt_page": 50,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S、T与程序起止",
+      "start_line": 2258,
+      "end_line": 2287
+    },
+    {
+      "original_pdf_page": 330,
+      "printed_page": "7-62",
+      "excerpt_page": 51,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S、T与程序起止",
+      "start_line": 2288,
+      "end_line": 2323
+    },
+    {
+      "original_pdf_page": 331,
+      "printed_page": "7-63",
+      "excerpt_page": 52,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S、T与程序起止",
+      "start_line": 2324,
+      "end_line": 2382
+    }
+  ]
+}

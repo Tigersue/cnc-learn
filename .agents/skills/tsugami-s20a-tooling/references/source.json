@@ -1,0 +1,395 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "e92e91758352af6b7c2d8a3a2506f8d500277c3b180715e833d24991be4fc682",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-tooling",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      30,
+      35
+    ],
+    [
+      87,
+      110
+    ],
+    [
+      418,
+      421
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 47,
+      "end_line": 64
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 65,
+      "end_line": 107
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 108,
+      "end_line": 146
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 147,
+      "end_line": 204
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 205,
+      "end_line": 246
+    },
+    {
+      "original_pdf_page": 30,
+      "printed_page": "2-4",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域、刀架和系统图",
+      "start_line": 247,
+      "end_line": 265
+    },
+    {
+      "original_pdf_page": 31,
+      "printed_page": "2-5",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域、刀架和系统图",
+      "start_line": 266,
+      "end_line": 282
+    },
+    {
+      "original_pdf_page": 32,
+      "printed_page": "2-6",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域、刀架和系统图",
+      "start_line": 283,
+      "end_line": 304
+    },
+    {
+      "original_pdf_page": 33,
+      "printed_page": "2-7",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域、刀架和系统图",
+      "start_line": 305,
+      "end_line": 327
+    },
+    {
+      "original_pdf_page": 34,
+      "printed_page": "2-8",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域、刀架和系统图",
+      "start_line": 328,
+      "end_line": 357
+    },
+    {
+      "original_pdf_page": 35,
+      "printed_page": "2-9",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "加工区域、刀架和系统图",
+      "start_line": 358,
+      "end_line": 387
+    },
+    {
+      "original_pdf_page": 87,
+      "printed_page": "4-32",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪与挡料刀",
+      "start_line": 388,
+      "end_line": 427
+    },
+    {
+      "original_pdf_page": 88,
+      "printed_page": "4-33",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪与挡料刀",
+      "start_line": 428,
+      "end_line": 462
+    },
+    {
+      "original_pdf_page": 89,
+      "printed_page": "4-34",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪与挡料刀",
+      "start_line": 463,
+      "end_line": 506
+    },
+    {
+      "original_pdf_page": 90,
+      "printed_page": "4-35",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪与挡料刀",
+      "start_line": 507,
+      "end_line": 545
+    },
+    {
+      "original_pdf_page": 91,
+      "printed_page": "4-36",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪与挡料刀",
+      "start_line": 546,
+      "end_line": 589
+    },
+    {
+      "original_pdf_page": 92,
+      "printed_page": "4-37",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪与挡料刀",
+      "start_line": 590,
+      "end_line": 636
+    },
+    {
+      "original_pdf_page": 93,
+      "printed_page": "4-38",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 637,
+      "end_line": 676
+    },
+    {
+      "original_pdf_page": 94,
+      "printed_page": "4-39",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 677,
+      "end_line": 714
+    },
+    {
+      "original_pdf_page": 95,
+      "printed_page": "4-40",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 715,
+      "end_line": 749
+    },
+    {
+      "original_pdf_page": 96,
+      "printed_page": "4-41",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 750,
+      "end_line": 796
+    },
+    {
+      "original_pdf_page": 97,
+      "printed_page": "4-42",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 797,
+      "end_line": 831
+    },
+    {
+      "original_pdf_page": 98,
+      "printed_page": "4-43",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 832,
+      "end_line": 876
+    },
+    {
+      "original_pdf_page": 99,
+      "printed_page": "4-44",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 877,
+      "end_line": 916
+    },
+    {
+      "original_pdf_page": 100,
+      "printed_page": "4-45",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向动力头及基准前侧刀具",
+      "start_line": 917,
+      "end_line": 952
+    },
+    {
+      "original_pdf_page": 101,
+      "printed_page": "4-46",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "正面与背面刀具",
+      "start_line": 953,
+      "end_line": 998
+    },
+    {
+      "original_pdf_page": 102,
+      "printed_page": "4-47",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "正面与背面刀具",
+      "start_line": 999,
+      "end_line": 1027
+    },
+    {
+      "original_pdf_page": 103,
+      "printed_page": "4-48",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "正面与背面刀具",
+      "start_line": 1028,
+      "end_line": 1073
+    },
+    {
+      "original_pdf_page": 104,
+      "printed_page": "4-49",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "正面与背面刀具",
+      "start_line": 1074,
+      "end_line": 1106
+    },
+    {
+      "original_pdf_page": 105,
+      "printed_page": "4-50",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "深孔、副轴适配器与衬套刀座",
+      "start_line": 1107,
+      "end_line": 1138
+    },
+    {
+      "original_pdf_page": 106,
+      "printed_page": "4-51",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "深孔、副轴适配器与衬套刀座",
+      "start_line": 1139,
+      "end_line": 1162
+    },
+    {
+      "original_pdf_page": 107,
+      "printed_page": "4-52",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "深孔、副轴适配器与衬套刀座",
+      "start_line": 1163,
+      "end_line": 1202
+    },
+    {
+      "original_pdf_page": 108,
+      "printed_page": "4-53",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "深孔、副轴适配器与衬套刀座",
+      "start_line": 1203,
+      "end_line": 1226
+    },
+    {
+      "original_pdf_page": 109,
+      "printed_page": "4-54",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "深孔、副轴适配器与衬套刀座",
+      "start_line": 1227,
+      "end_line": 1264
+    },
+    {
+      "original_pdf_page": 110,
+      "printed_page": "4-55",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "深孔、副轴适配器与衬套刀座",
+      "start_line": 1265,
+      "end_line": 1301
+    },
+    {
+      "original_pdf_page": 418,
+      "printed_page": "9-32",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪、钻头座、对芯工具",
+      "start_line": 1302,
+      "end_line": 1353
+    },
+    {
+      "original_pdf_page": 419,
+      "printed_page": "9-33",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪、钻头座、对芯工具",
+      "start_line": 1354,
+      "end_line": 1404
+    },
+    {
+      "original_pdf_page": 420,
+      "printed_page": "9-34",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪、钻头座、对芯工具",
+      "start_line": 1405,
+      "end_line": 1459
+    },
+    {
+      "original_pdf_page": 421,
+      "printed_page": "9-35",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "设置仪、钻头座、对芯工具",
+      "start_line": 1460,
+      "end_line": 1502
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜试运行与量产准备
+  short_description: 依手册区分程序检查、空运行、试切和量产，并核对恢复条件，附页码
+  default_prompt: 请用 $tsugami-s20a-production 整理从程序检查到首件与连续加工的步骤。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

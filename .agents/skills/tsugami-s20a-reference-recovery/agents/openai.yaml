@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜原点电池与参数恢复
+  short_description: 依手册核对原点丢失、相位与电池维护的条件及参数恢复要求，附页码
+  default_prompt: 请用 $tsugami-s20a-reference-recovery 判断是否需要原点或电池维护，并给出依据。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

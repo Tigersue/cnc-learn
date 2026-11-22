@@ -1,0 +1,144 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "66eadc88aa89b67af034f9c35d95cfb4ebb1dfba95da696500138dece2d8690f",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-installation",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      49,
+      55
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 20,
+      "end_line": 37
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 38,
+      "end_line": 80
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 81,
+      "end_line": 119
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 120,
+      "end_line": 177
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 178,
+      "end_line": 219
+    },
+    {
+      "original_pdf_page": 49,
+      "printed_page": "3-1",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "搬运吊装",
+      "start_line": 220,
+      "end_line": 257
+    },
+    {
+      "original_pdf_page": 50,
+      "printed_page": "3-2",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安装与调平",
+      "start_line": 258,
+      "end_line": 304
+    },
+    {
+      "original_pdf_page": 51,
+      "printed_page": "3-3",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "安装与调平",
+      "start_line": 305,
+      "end_line": 338
+    },
+    {
+      "original_pdf_page": 52,
+      "printed_page": "3-4",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "电源、气源、油脂",
+      "start_line": 339,
+      "end_line": 381
+    },
+    {
+      "original_pdf_page": 53,
+      "printed_page": "3-5",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "电源、气源、油脂",
+      "start_line": 382,
+      "end_line": 420
+    },
+    {
+      "original_pdf_page": 54,
+      "printed_page": "3-6",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "地震对策",
+      "start_line": 421,
+      "end_line": 471
+    },
+    {
+      "original_pdf_page": 55,
+      "printed_page": "3-7",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "首次通电",
+      "start_line": 472,
+      "end_line": 509
+    }
+  ]
+}

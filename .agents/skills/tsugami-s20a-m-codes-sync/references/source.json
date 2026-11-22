@@ -1,0 +1,448 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "927000e6c1f4983c7ff4192e0904ae3da08ed1c9b83b083f940360d42c23ef57",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-m-codes-sync",
+  "primary_ranges": [
+    [
+      17,
+      23
+    ],
+    [
+      157,
+      163
+    ],
+    [
+      259,
+      259
+    ],
+    [
+      277,
+      292
+    ],
+    [
+      328,
+      331
+    ],
+    [
+      345,
+      350
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 52,
+      "end_line": 69
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 70,
+      "end_line": 112
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 113,
+      "end_line": 151
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 152,
+      "end_line": 209
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 210,
+      "end_line": 251
+    },
+    {
+      "original_pdf_page": 19,
+      "printed_page": "1-3",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前置资料/原图",
+      "start_line": 252,
+      "end_line": 307
+    },
+    {
+      "original_pdf_page": 20,
+      "printed_page": "1-4",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前置资料/原图",
+      "start_line": 308,
+      "end_line": 342
+    },
+    {
+      "original_pdf_page": 21,
+      "printed_page": "1-5",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前置资料/原图",
+      "start_line": 343,
+      "end_line": 392
+    },
+    {
+      "original_pdf_page": 22,
+      "printed_page": "1-6",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前置资料/原图",
+      "start_line": 393,
+      "end_line": 428
+    },
+    {
+      "original_pdf_page": 23,
+      "printed_page": "1-7",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前置资料/原图",
+      "start_line": 429,
+      "end_line": 473
+    },
+    {
+      "original_pdf_page": 157,
+      "printed_page": "4-102",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 474,
+      "end_line": 523
+    },
+    {
+      "original_pdf_page": 158,
+      "printed_page": "4-103",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 524,
+      "end_line": 574
+    },
+    {
+      "original_pdf_page": 159,
+      "printed_page": "4-104",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 575,
+      "end_line": 630
+    },
+    {
+      "original_pdf_page": 160,
+      "printed_page": "4-105",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 631,
+      "end_line": 678
+    },
+    {
+      "original_pdf_page": 161,
+      "printed_page": "4-106",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 679,
+      "end_line": 731
+    },
+    {
+      "original_pdf_page": 162,
+      "printed_page": "4-107",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 732,
+      "end_line": 775
+    },
+    {
+      "original_pdf_page": 163,
+      "printed_page": "4-108",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "联锁前提",
+      "start_line": 776,
+      "end_line": 813
+    },
+    {
+      "original_pdf_page": 259,
+      "printed_page": "6-71",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "主副轴相位调整的性质",
+      "start_line": 814,
+      "end_line": 860
+    },
+    {
+      "original_pdf_page": 277,
+      "printed_page": "7-9",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码表",
+      "start_line": 861,
+      "end_line": 915
+    },
+    {
+      "original_pdf_page": 278,
+      "printed_page": "7-10",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码表",
+      "start_line": 916,
+      "end_line": 974
+    },
+    {
+      "original_pdf_page": 279,
+      "printed_page": "7-11",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码表",
+      "start_line": 975,
+      "end_line": 1030
+    },
+    {
+      "original_pdf_page": 280,
+      "printed_page": "7-12",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码表",
+      "start_line": 1031,
+      "end_line": 1081
+    },
+    {
+      "original_pdf_page": 281,
+      "printed_page": "7-13",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1082,
+      "end_line": 1123
+    },
+    {
+      "original_pdf_page": 282,
+      "printed_page": "7-14",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1124,
+      "end_line": 1179
+    },
+    {
+      "original_pdf_page": 283,
+      "printed_page": "7-15",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1180,
+      "end_line": 1227
+    },
+    {
+      "original_pdf_page": 284,
+      "printed_page": "7-16",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1228,
+      "end_line": 1284
+    },
+    {
+      "original_pdf_page": 285,
+      "printed_page": "7-17",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1285,
+      "end_line": 1344
+    },
+    {
+      "original_pdf_page": 286,
+      "printed_page": "7-18",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1345,
+      "end_line": 1403
+    },
+    {
+      "original_pdf_page": 287,
+      "printed_page": "7-19",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1404,
+      "end_line": 1454
+    },
+    {
+      "original_pdf_page": 288,
+      "printed_page": "7-20",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1455,
+      "end_line": 1499
+    },
+    {
+      "original_pdf_page": 289,
+      "printed_page": "7-21",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1500,
+      "end_line": 1532
+    },
+    {
+      "original_pdf_page": 290,
+      "printed_page": "7-22",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1533,
+      "end_line": 1579
+    },
+    {
+      "original_pdf_page": 291,
+      "printed_page": "7-23",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1580,
+      "end_line": 1625
+    },
+    {
+      "original_pdf_page": 292,
+      "printed_page": "7-24",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "M代码详细说明",
+      "start_line": 1626,
+      "end_line": 1682
+    },
+    {
+      "original_pdf_page": 328,
+      "printed_page": "7-60",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T与双通道程序起止",
+      "start_line": 1683,
+      "end_line": 1721
+    },
+    {
+      "original_pdf_page": 329,
+      "printed_page": "7-61",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T与双通道程序起止",
+      "start_line": 1722,
+      "end_line": 1751
+    },
+    {
+      "original_pdf_page": 330,
+      "printed_page": "7-62",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T与双通道程序起止",
+      "start_line": 1752,
+      "end_line": 1787
+    },
+    {
+      "original_pdf_page": 331,
+      "printed_page": "7-63",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T与双通道程序起止",
+      "start_line": 1788,
+      "end_line": 1846
+    },
+    {
+      "original_pdf_page": 345,
+      "printed_page": "7-77",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "Z1/Z2同步与切断实例",
+      "start_line": 1847,
+      "end_line": 1904
+    },
+    {
+      "original_pdf_page": 346,
+      "printed_page": "7-78",
+      "excerpt_page": 40,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "Z1/Z2同步与切断实例",
+      "start_line": 1905,
+      "end_line": 1975
+    },
+    {
+      "original_pdf_page": 347,
+      "printed_page": "7-79",
+      "excerpt_page": 41,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "Z1/Z2同步与切断实例",
+      "start_line": 1976,
+      "end_line": 2040
+    },
+    {
+      "original_pdf_page": 348,
+      "printed_page": "7-80",
+      "excerpt_page": 42,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "Z1/Z2同步与切断实例",
+      "start_line": 2041,
+      "end_line": 2069
+    },
+    {
+      "original_pdf_page": 349,
+      "printed_page": "7-81",
+      "excerpt_page": 43,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "Z1/Z2同步与切断实例",
+      "start_line": 2070,
+      "end_line": 2131
+    },
+    {
+      "original_pdf_page": 350,
+      "printed_page": "7-82",
+      "excerpt_page": 44,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "Z1/Z2同步与切断实例",
+      "start_line": 2132,
+      "end_line": 2189
+    }
+  ]
+}

@@ -1,0 +1,485 @@
+{
+  "source_uploaded_name": "S205A S206A 说明书(3281-LTQ0C-05)中 包含电路图 （机号：3001~ ）.pdf",
+  "source_sha256": "b3c8d9357e5087d71f3a70f42e71a28f860fb032cccdb09a6232b3193b0f0422",
+  "original_total_pages": 485,
+  "manual_code": "3281-LTQ0C-05",
+  "cover_version": "23.04",
+  "cover_models": "S205A/S206A",
+  "cover_controller": "FANUC 0iTF Plus",
+  "cover_serial_range": "27610B~",
+  "filename_serial_range": "3001~",
+  "scope": "User-provided manual; confirm actual machine applicability",
+  "source_conflicts": [
+    "Filename serial range differs from cover",
+    "Foreword mentions older 0i-TD manuals",
+    "Some TOC page numbers differ from actual body",
+    "9.25 TOC: square16; body: square12",
+    "Appended circuit/PMC titles differ in era/controller from cover"
+  ],
+  "excerpt_path": "assets/manual-excerpt.pdf",
+  "excerpt_sha256": "42b16f762203a94f4419e1b7700ca4a50dc26e888e28aeb5ab95a95ca37f4d0a",
+  "page_number_basis": "original_pdf_page is 1-based in the full 485-page upload",
+  "text_method": "pdftotext -layout; no OCR; explicitly marked visual navigation notes",
+  "module": "tsugami-s20a-machining",
+  "primary_ranges": [
+    [
+      17,
+      18
+    ],
+    [
+      293,
+      295
+    ],
+    [
+      312,
+      313
+    ],
+    [
+      328,
+      366
+    ]
+  ],
+  "pages": [
+    {
+      "original_pdf_page": 1,
+      "printed_page": null,
+      "excerpt_page": 1,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "封面：0iTF Plus / 27610B~ / 3281-LTQ0C-05 / 23.04",
+      "start_line": 57,
+      "end_line": 74
+    },
+    {
+      "original_pdf_page": 5,
+      "printed_page": null,
+      "excerpt_page": 2,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "注意与手册范围",
+      "start_line": 75,
+      "end_line": 117
+    },
+    {
+      "original_pdf_page": 7,
+      "printed_page": null,
+      "excerpt_page": 3,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "前言：含旧FANUC 0i-TD手册名称",
+      "start_line": 118,
+      "end_line": 156
+    },
+    {
+      "original_pdf_page": 17,
+      "printed_page": "1-1",
+      "excerpt_page": 4,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 157,
+      "end_line": 214
+    },
+    {
+      "original_pdf_page": 18,
+      "printed_page": "1-2",
+      "excerpt_page": 5,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "通用安全、人员资格、电控注意事项",
+      "start_line": 215,
+      "end_line": 256
+    },
+    {
+      "original_pdf_page": 293,
+      "printed_page": "7-25",
+      "excerpt_page": 6,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "代码与进给模式前提",
+      "start_line": 257,
+      "end_line": 313
+    },
+    {
+      "original_pdf_page": 294,
+      "printed_page": "7-26",
+      "excerpt_page": 7,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "代码与进给模式前提",
+      "start_line": 314,
+      "end_line": 361
+    },
+    {
+      "original_pdf_page": 295,
+      "printed_page": "7-27",
+      "excerpt_page": 8,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "代码与进给模式前提",
+      "start_line": 362,
+      "end_line": 401
+    },
+    {
+      "original_pdf_page": 312,
+      "printed_page": "7-44",
+      "excerpt_page": 9,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "恒线速、每转/每分进给",
+      "start_line": 402,
+      "end_line": 464
+    },
+    {
+      "original_pdf_page": 313,
+      "printed_page": "7-45",
+      "excerpt_page": 10,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "恒线速、每转/每分进给",
+      "start_line": 465,
+      "end_line": 504
+    },
+    {
+      "original_pdf_page": 328,
+      "printed_page": "7-60",
+      "excerpt_page": 11,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T及程序起止",
+      "start_line": 505,
+      "end_line": 543
+    },
+    {
+      "original_pdf_page": 329,
+      "printed_page": "7-61",
+      "excerpt_page": 12,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T及程序起止",
+      "start_line": 544,
+      "end_line": 573
+    },
+    {
+      "original_pdf_page": 330,
+      "printed_page": "7-62",
+      "excerpt_page": 13,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T及程序起止",
+      "start_line": 574,
+      "end_line": 609
+    },
+    {
+      "original_pdf_page": 331,
+      "printed_page": "7-63",
+      "excerpt_page": 14,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "S/T及程序起止",
+      "start_line": 610,
+      "end_line": 668
+    },
+    {
+      "original_pdf_page": 332,
+      "printed_page": "7-64",
+      "excerpt_page": 15,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "外车与正面钻孔",
+      "start_line": 669,
+      "end_line": 736
+    },
+    {
+      "original_pdf_page": 333,
+      "printed_page": "7-65",
+      "excerpt_page": 16,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "外车与正面钻孔",
+      "start_line": 737,
+      "end_line": 800
+    },
+    {
+      "original_pdf_page": 334,
+      "printed_page": "7-66",
+      "excerpt_page": 17,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "外车与正面钻孔",
+      "start_line": 801,
+      "end_line": 840
+    },
+    {
+      "original_pdf_page": 335,
+      "printed_page": "7-67",
+      "excerpt_page": 18,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "外车与正面钻孔",
+      "start_line": 841,
+      "end_line": 906
+    },
+    {
+      "original_pdf_page": 336,
+      "printed_page": "7-68",
+      "excerpt_page": 19,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "外车与正面钻孔",
+      "start_line": 907,
+      "end_line": 937
+    },
+    {
+      "original_pdf_page": 337,
+      "printed_page": "7-69",
+      "excerpt_page": 20,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "外车与正面钻孔",
+      "start_line": 938,
+      "end_line": 987
+    },
+    {
+      "original_pdf_page": 338,
+      "printed_page": "7-70",
+      "excerpt_page": 21,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 988,
+      "end_line": 1045
+    },
+    {
+      "original_pdf_page": 339,
+      "printed_page": "7-71",
+      "excerpt_page": 22,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1046,
+      "end_line": 1094
+    },
+    {
+      "original_pdf_page": 340,
+      "printed_page": "7-72",
+      "excerpt_page": 23,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1095,
+      "end_line": 1144
+    },
+    {
+      "original_pdf_page": 341,
+      "printed_page": "7-73",
+      "excerpt_page": 24,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1145,
+      "end_line": 1206
+    },
+    {
+      "original_pdf_page": 342,
+      "printed_page": "7-74",
+      "excerpt_page": 25,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1207,
+      "end_line": 1264
+    },
+    {
+      "original_pdf_page": 343,
+      "printed_page": "7-75",
+      "excerpt_page": 26,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1265,
+      "end_line": 1326
+    },
+    {
+      "original_pdf_page": 344,
+      "printed_page": "7-76",
+      "excerpt_page": 27,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1327,
+      "end_line": 1390
+    },
+    {
+      "original_pdf_page": 345,
+      "printed_page": "7-77",
+      "excerpt_page": 28,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "横向、深孔与同步",
+      "start_line": 1391,
+      "end_line": 1448
+    },
+    {
+      "original_pdf_page": 346,
+      "printed_page": "7-78",
+      "excerpt_page": 29,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1449,
+      "end_line": 1519
+    },
+    {
+      "original_pdf_page": 347,
+      "printed_page": "7-79",
+      "excerpt_page": 30,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1520,
+      "end_line": 1584
+    },
+    {
+      "original_pdf_page": 348,
+      "printed_page": "7-80",
+      "excerpt_page": 31,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1585,
+      "end_line": 1613
+    },
+    {
+      "original_pdf_page": 349,
+      "printed_page": "7-81",
+      "excerpt_page": 32,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1614,
+      "end_line": 1675
+    },
+    {
+      "original_pdf_page": 350,
+      "printed_page": "7-82",
+      "excerpt_page": 33,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1676,
+      "end_line": 1733
+    },
+    {
+      "original_pdf_page": 351,
+      "printed_page": "7-83",
+      "excerpt_page": 34,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1734,
+      "end_line": 1795
+    },
+    {
+      "original_pdf_page": 352,
+      "printed_page": "7-84",
+      "excerpt_page": 35,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1796,
+      "end_line": 1850
+    },
+    {
+      "original_pdf_page": 353,
+      "printed_page": "7-85",
+      "excerpt_page": 36,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1851,
+      "end_line": 1916
+    },
+    {
+      "original_pdf_page": 354,
+      "printed_page": "7-86",
+      "excerpt_page": 37,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1917,
+      "end_line": 1953
+    },
+    {
+      "original_pdf_page": 355,
+      "printed_page": "7-87",
+      "excerpt_page": 38,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切断与副轴加工",
+      "start_line": 1954,
+      "end_line": 2010
+    },
+    {
+      "original_pdf_page": 356,
+      "printed_page": "7-88",
+      "excerpt_page": 39,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "其他加工例",
+      "start_line": 2011,
+      "end_line": 2068
+    },
+    {
+      "original_pdf_page": 357,
+      "printed_page": "7-89",
+      "excerpt_page": 40,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "其他加工例",
+      "start_line": 2069,
+      "end_line": 2119
+    },
+    {
+      "original_pdf_page": 358,
+      "printed_page": "7-90",
+      "excerpt_page": 41,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "其他加工例",
+      "start_line": 2120,
+      "end_line": 2184
+    },
+    {
+      "original_pdf_page": 359,
+      "printed_page": "7-91",
+      "excerpt_page": 42,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "其他加工例",
+      "start_line": 2185,
+      "end_line": 2232
+    },
+    {
+      "original_pdf_page": 360,
+      "printed_page": "7-92",
+      "excerpt_page": 43,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "其他加工例",
+      "start_line": 2233,
+      "end_line": 2272
+    },
+    {
+      "original_pdf_page": 361,
+      "printed_page": "7-93",
+      "excerpt_page": 44,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削速度、螺纹与条件表",
+      "start_line": 2273,
+      "end_line": 2339
+    },
+    {
+      "original_pdf_page": 362,
+      "printed_page": "7-94",
+      "excerpt_page": 45,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削速度、螺纹与条件表",
+      "start_line": 2340,
+      "end_line": 2382
+    },
+    {
+      "original_pdf_page": 363,
+      "printed_page": null,
+      "excerpt_page": 46,
+      "text_status": "横向表：须核图，纸面页码未见",
+      "topic": "切削速度、螺纹与条件表",
+      "start_line": 2383,
+      "end_line": 2440
+    },
+    {
+      "original_pdf_page": 364,
+      "printed_page": "7-96",
+      "excerpt_page": 47,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削速度、螺纹与条件表",
+      "start_line": 2441,
+      "end_line": 2499
+    },
+    {
+      "original_pdf_page": 365,
+      "printed_page": "7-97",
+      "excerpt_page": 48,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削速度、螺纹与条件表",
+      "start_line": 2500,
+      "end_line": 2556
+    },
+    {
+      "original_pdf_page": 366,
+      "printed_page": "7-98",
+      "excerpt_page": 49,
+      "text_status": "机械提取：表格与图仍须核图",
+      "topic": "切削速度、螺纹与条件表",
+      "start_line": 2557,
+      "end_line": 2605
+    }
+  ]
+}

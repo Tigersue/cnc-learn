@@ -1,0 +1,13 @@
+interface:
+  display_name: 津上S205A/S206A｜坐标与刀具补正
+  short_description: 依手册区分坐标、中心高、T轴及刀尖补正，按原文分析偏差，附页码
+  default_prompt: 请用 $tsugami-s20a-offsets 判断这项误差属于哪类补正，并说明依据。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
