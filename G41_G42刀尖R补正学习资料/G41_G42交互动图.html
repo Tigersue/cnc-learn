@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>津上走心机 G41 / G42 刀尖 R 补正交互动图</title>
+  <style>
+    :root {
+      --background: #f8fafc;
+      --foreground: #0f172a;
+      --muted-foreground: #475569;
+      --card: #ffffff;
+      --card-border: #e2e8f0;
+      --border: #cbd5e1;
+      --primary: #2563eb;
+      --primary-foreground: #ffffff;
+      --secondary: #f1f5f9;
+      --secondary-foreground: #1e293b;
+      --code-foreground: #0369a1;
+      --chart-1: #3b82f6;
+      --chart-2: #0284c7;
+      --chart-3: #d97706;
+      --success: #16a34a;
+      --warning: #d97706;
+      --error: #dc2626;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --background: #0b1220;
+        --foreground: #e2e8f0;
+        --muted-foreground: #94a3b8;
+        --card: #111a2e;
+        --card-border: #1e293b;
+        --border: #334155;
+        --primary: #3b82f6;
+        --primary-foreground: #ffffff;
+        --secondary: #1e293b;
+        --secondary-foreground: #e2e8f0;
+        --code-foreground: #38bdf8;
+        --chart-1: #60a5fa;
+        --chart-2: #38bdf8;
+        --chart-3: #f59e0b;
+        --success: #22c55e;
+        --warning: #f59e0b;
+        --error: #f87171;
+      }
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      padding: 16px;
+      background: var(--background);
+      color: var(--foreground);
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    .page-header {
+      margin-bottom: 12px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .page-header h1 {
+      margin: 0 0 4px 0;
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .page-header p {
+      margin: 0;
+      font-size: 12px;
+      color: var(--muted-foreground);
+    }
+    .rule-callout {
+      margin-top: 6px;
+      padding: 6px 10px;
+      border-radius: 6px;
+      background: var(--secondary);
+      border: 1px solid var(--border);
+      font-size: 12px;
+      color: var(--foreground);
+    }
+
+    .panel-shell {
+      background: var(--card);
+      border: 1px solid var(--card-border);
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .btn-group {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+    }
+    .divider {
+      margin: 0 4px;
+      color: var(--border);
+    }
+
+    .btn-pill {
+      padding: 3px 8px;
+      border-radius: 5px;
+      border: 1px solid var(--border);
+      background: var(--secondary);
+      color: var(--secondary-foreground);
+      font-size: 12px;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 120ms ease, color 120ms ease, border-color 120ms ease;
+    }
+    .btn-pill.is-active {
+      background: var(--primary);
+      color: var(--primary-foreground);
+      border-color: var(--primary);
+    }
+    .btn-pill.is-sm {
+      padding: 1px 6px;
+    }
+    .btn-pill.is-mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    .seg-bar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 4px;
+      margin-top: 8px;
+    }
+
+    .canvas-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    @media (max-width: 720px) {
+      .canvas-grid { grid-template-columns: 1fr; }
+    }
+
+    .canvas-card {
+      border: 1px solid var(--card-border);
+      border-radius: 8px;
+      background: var(--background);
+      overflow: hidden;
+    }
+    .canvas-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 6px;
+      padding: 4px 8px;
+      border-bottom: 1px solid var(--card-border);
+      background: var(--secondary);
+      font-size: 12px;
+    }
+    .canvas-head-title {
+      font-weight: 600;
+      color: var(--foreground);
+    }
+    .canvas-legend {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      color: var(--muted-foreground);
+      font-size: 12px;
+    }
+    svg.stage {
+      width: 100%;
+      height: 250px;
+      display: block;
+    }
+    svg text {
+      user-select: none;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+
+    .telemetry {
+      margin-top: 8px;
+      padding-top: 8px;
+      border-top: 1px solid var(--card-border);
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+    }
+    .tel-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      min-height: 22px;
+      font-size: 12px;
+    }
+    .tel-badge {
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: var(--primary);
+      color: var(--primary-foreground);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 600;
+    }
+    .tel-code {
+      padding: 2px 6px;
+      border-radius: 4px;
+      background: var(--secondary);
+      color: var(--code-foreground);
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-weight: 500;
+    }
+    .tel-desc {
+      color: var(--muted-foreground);
+    }
+
+    .cards-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+    }
+    @media (max-width: 720px) {
+      .cards-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    .stat-card {
+      padding: 6px 8px;
+      border-radius: 6px;
+      border: 1px solid var(--card-border);
+      background: var(--secondary);
+    }
+    .stat-label {
+      color: var(--muted-foreground);
+      font-size: 12px;
+    }
+    .stat-value {
+      margin-top: 2px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+      font-variant-numeric: tabular-nums;
+      font-weight: 600;
+      font-size: 12px;
+      color: var(--foreground);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="page-header">
+      <h1>津上 S205A / S206A 走心机 G41 / G42 刀尖 R 补正交互图解</h1>
+      <p>1:1 真实几何计算驱动（T4 假想刀尖、R0.4 mm），对比补偿开（G41/G42）与无补偿（G40）的欠切与过切误差，并联动展示导套 + Z1 推料真实运动。</p>
+      <div class="rule-callout">
+        <strong>左右判断口诀：</strong>把自己想成站在图纸的成品轮廓线上，脸朝着刀相对工件前进的方向——刀尖圆弧的圆心在<strong>左手边用 <code>G41</code></strong>，在<strong>右手边用 <code>G42</code></strong>。
+      </div>
+    </div>
+
+    <div class="panel-shell">
+      <div class="toolbar">
+        <div class="btn-group">
+          <button id="btn-play" class="btn-pill is-active">暂停</button>
+          <button id="btn-prev" title="上一段" class="btn-pill">◀</button>
+          <button id="btn-next" title="下一段" class="btn-pill">▶</button>
+          <span class="divider">|</span>
+          <button id="sc-g41" class="btn-pill is-active">外圆 G41 (+Z)</button>
+          <button id="sc-g42" class="btn-pill">端面 G42 (-Z)</button>
+        </div>
+        <div class="btn-group">
+          <button id="mode-on" class="btn-pill is-active">补偿开 (G41/G42)</button>
+          <button id="mode-off" class="btn-pill">无补偿 (G40)</button>
+        </div>
+      </div>
+
+      <div id="seg-bar" class="seg-bar"></div>
+
+      <div class="canvas-grid">
+        <div class="canvas-card">
+          <div class="canvas-head">
+            <span class="canvas-head-title">编程视角（工件固定 · +Z朝左）</span>
+            <span id="left-legend" class="canvas-legend">G41 左偏 · T4 R0.4</span>
+          </div>
+          <svg id="svg-left" class="stage" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+
+        <div class="canvas-card">
+          <div class="canvas-head">
+            <span id="right-title" class="canvas-head-title">刀尖 5× 局部放大（假想 P vs 圆心 O）</span>
+            <div class="btn-group">
+              <button id="rv-zoom" class="btn-pill is-sm is-active">刀尖 5× 放大</button>
+              <button id="rv-swiss" class="btn-pill is-sm">走心机实动</button>
+            </div>
+          </div>
+          <svg id="svg-right" class="stage" preserveAspectRatio="xMidYMid meet"></svg>
+        </div>
+      </div>
+
+      <div class="telemetry">
+        <div class="tel-row">
+          <span id="tel-badge" class="tel-badge">P0→P1</span>
+          <code id="tel-code" class="tel-code">G41 G01 X10.0 Z0.0 F0.05</code>
+          <span id="tel-desc" class="tel-desc">建立 G41 左偏补正，圆心偏至 C1 法向外侧与端面相切</span>
+        </div>
+        <div class="cards-grid">
+          <div class="stat-card">
+            <div class="stat-label">程序坐标 (假想P)</div>
+            <div id="card-prog" class="stat-value">X10.000 Z0.000</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">实际圆心 O (r, Z)</div>
+            <div id="card-center" class="stat-value">r5.283 Z-0.283</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">当前补正 / 刀尖</div>
+            <div id="card-comp" class="stat-value">G41 开 · T4 R0.4</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-label">法向轮廓误差</div>
+            <div id="card-err" class="stat-value">0.000 mm (精准)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    (() => {
+      const R = 0.4;
+      const NS = "http://www.w3.org/2000/svg";
+      const S = (r, z) => [-z, r];
+      const fmt = (v, n = 3) => (Math.abs(v) < 1e-6 ? 0 : v).toFixed(n);
+      const lerp = (a, b, t) => a + (b - a) * t;
+
+      const SCENARIOS = {
+        g41: {
+          id: "g41",
+          compLabel: "G41 开 · T4 R0.4",
+          leftViewBox: "-12.4 -2.2 16.2 12.2",
+          swissViewBox: "-14.8 -4.6 22.0 15.2",
+          partContour: [
+            [-11.8, 0], [0, 0], [0, 5], [-1, 6], [-4, 6],
+            { type: "arc", cx: -4, cy: 8, r: 2, sweep: 0, to: [-6, 8] },
+            [-7.5, 8], [-9.5, 7], [-10.5, 7], [-11.8, 7]
+          ],
+          partPoints: [
+            { id: "P0", r: 4.0, z: -1.0, lx: 1.5, ly: -0.6 },
+            { id: "P1", r: 5.0, z: 0.0,  lx: 0.9, ly: 0.5 },
+            { id: "P2", r: 6.0, z: 1.0,  lx: 0.4, ly: 1.0 },
+            { id: "P3", r: 6.0, z: 4.0,  lx: -0.2, ly: 1.0 },
+            { id: "P4", r: 8.0, z: 6.0,  lx: 0.5, ly: 1.0 },
+            { id: "P5", r: 8.0, z: 7.5,  lx: -0.2, ly: 1.0 },
+            { id: "P6", r: 7.0, z: 9.5,  lx: 0.3, ly: 1.0 },
+            { id: "P7", r: 7.0, z: 10.5, lx: -0.4, ly: 1.0 },
+            { id: "P8", r: 8.5, z: 10.5, lx: -1.1, ly: 0.3 }
+          ],
+          segments: [
+            {
+              label: "P0→P1",
+              code: "G41 G01 X10.0 Z0.0 F0.05",
+              desc: "建立 G41 左偏补正，圆心偏至 C1 法向外侧与端面相切",
+              p0: { r: 4.0, z: -1.0 }, p1: { r: 5.0, z: 0.0 },
+              compType: "line",
+              o0: { r: 4.4, z: -1.4 }, o1: { r: 5.2828, z: -0.2828 },
+              raw0: { r: 4.4, z: -1.4 }, raw1: { r: 5.4, z: -0.4 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "接近端面（无误差）"
+            },
+            {
+              label: "P1→P2",
+              code: "U2.0 W1.0",
+              desc: "45° C1 倒角：开 G41 贴合倒角；G40 欠切 +0.166 mm 变 C0.766",
+              p0: { r: 5.0, z: 0.0 }, p1: { r: 6.0, z: 1.0 },
+              compType: "line",
+              o0: { r: 5.2828, z: -0.2828 }, o1: { r: 6.4, z: 0.8343 },
+              raw0: { r: 5.4, z: -0.4 }, raw1: { r: 6.4, z: 0.6 },
+              errRaw: +0.1657, errStatus: "warn", errTextRaw: "+0.166 mm 欠切",
+              normal: { nr: Math.SQRT1_2, nz: -Math.SQRT1_2 }
+            },
+            {
+              label: "P2→P3",
+              code: "W3.0",
+              desc: "Ø12 圆柱直段：平行 Z 轴走刀，开关补正无径向误差",
+              p0: { r: 6.0, z: 1.0 }, p1: { r: 6.0, z: 4.0 },
+              compType: "line",
+              o0: { r: 6.4, z: 0.8343 }, o1: { r: 6.4, z: 4.0 },
+              raw0: { r: 6.4, z: 0.6 }, raw1: { r: 6.4, z: 3.6 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (直段无差)",
+              normal: { nr: 1, nz: 0 }
+            },
+            {
+              label: "P3→P4",
+              code: "G03 U4.0 W2.0 R2.0",
+              desc: "R2 凹圆弧：G41 圆心按 R1.6 同心走；G40 中点欠切 +0.166 mm",
+              p0: { r: 6.0, z: 4.0 }, p1: { r: 8.0, z: 6.0 },
+              compType: "arc",
+              arcCenter: { r: 8.0, z: 4.0 }, arcRadiusP: 2.0, arcRadiusComp: 1.6,
+              o0: { r: 6.4, z: 4.0 }, o1: { r: 8.0, z: 5.6 },
+              raw0: { r: 6.4, z: 3.6 }, raw1: { r: 8.4, z: 5.6 },
+              rawArcCenter: { r: 8.4, z: 3.6 },
+              errRaw: +0.1657, errStatus: "warn", errTextRaw: "+0.166 mm 欠切"
+            },
+            {
+              label: "P4→P5",
+              code: "G01 W1.5",
+              desc: "Ø16 圆柱直段：G41 在 P4 外角插值 0.4 mm 转接再走直段",
+              p0: { r: 8.0, z: 6.0 }, p1: { r: 8.0, z: 7.5 },
+              compType: "polyline",
+              polyComp: [
+                { r: 8.0, z: 5.6 },
+                { r: 8.4, z: 5.6 },
+                { r: 8.4, z: 7.5944 }
+              ],
+              o0: { r: 8.0, z: 5.6 }, o1: { r: 8.4, z: 7.5944 },
+              raw0: { r: 8.4, z: 5.6 }, raw1: { r: 8.4, z: 7.1 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (直段无差)",
+              normal: { nr: 1, nz: 0 }
+            },
+            {
+              label: "P5→P6",
+              code: "U-2.0 W2.0",
+              desc: "26.57° 降坡后锥：G41 自动拉后 Z 位；G40 过切 -0.221 mm 啃伤!",
+              p0: { r: 8.0, z: 7.5 }, p1: { r: 7.0, z: 9.5 },
+              compType: "line",
+              o0: { r: 8.4, z: 7.5944 }, o1: { r: 7.4, z: 9.5944 },
+              raw0: { r: 8.4, z: 7.1 }, raw1: { r: 7.4, z: 9.1 },
+              errRaw: -0.2211, errStatus: "err", errTextRaw: "-0.221 mm 过切!",
+              normal: { nr: 2 / Math.sqrt(5), nz: 1 / Math.sqrt(5) }
+            },
+            {
+              label: "P6→P7",
+              code: "W1.0",
+              desc: "Ø14 稳刀直段：让圆心先离开后锥区，避免退刀啃根",
+              p0: { r: 7.0, z: 9.5 }, p1: { r: 7.0, z: 10.5 },
+              compType: "line",
+              o0: { r: 7.4, z: 9.5944 }, o1: { r: 7.4, z: 10.5 },
+              raw0: { r: 7.4, z: 9.1 }, raw1: { r: 7.4, z: 10.1 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (稳刀段)",
+              normal: { nr: 1, nz: 0 }
+            },
+            {
+              label: "P7→P8",
+              code: "G40 G01 U3.0",
+              desc: "径向退刀并 G40 取消补正，假想刀尖 P 与圆心恢复刚性偏移",
+              p0: { r: 7.0, z: 10.5 }, p1: { r: 8.5, z: 10.5 },
+              compType: "line",
+              o0: { r: 7.4, z: 10.5 }, o1: { r: 8.9, z: 10.1 },
+              raw0: { r: 7.4, z: 10.1 }, raw1: { r: 8.9, z: 10.1 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (退刀段)"
+            }
+          ]
+        },
+
+        g42: {
+          id: "g42",
+          compLabel: "G42 开 · T4 R0.4",
+          leftViewBox: "-7.2 -2.4 11.4 12.6",
+          swissViewBox: "-9.5 -4.2 15.8 14.8",
+          partContour: [
+            [-6.8, 0], [0, 0], [0, 7.5], [-0.5, 8.0], [-6.8, 8.0]
+          ],
+          partPoints: [
+            { id: "Q0", r: 9.0,  z: 1.2,  lx: -1.1, ly: 0.2 },
+            { id: "Q1", r: 8.3,  z: 0.8,  lx: -0.9, ly: 0.7 },
+            { id: "Q2", r: 7.5,  z: 0.0,  lx: 0.7,  ly: 0.8 },
+            { id: "Q3", r: -1.0, z: 0.0,  lx: 0.6,  ly: -0.5 },
+            { id: "Q4", r: -1.0, z: -1.0, lx: 0.9,  ly: -0.5 },
+            { id: "Q5", r: 9.0,  z: -1.0, lx: 1.0,  ly: 0.3 }
+          ],
+          segments: [
+            {
+              label: "Q0→Q1",
+              code: "G42 G0 X16.6 Z0.8",
+              desc: "津上 7-34 例 1：外→内切端面，圆心在前进方向右侧，建立 G42",
+              p0: { r: 9.0, z: 1.2 }, p1: { r: 8.3, z: 0.8 },
+              compType: "line",
+              o0: { r: 9.4, z: 0.8 }, o1: { r: 8.5828, z: 0.5172 },
+              raw0: { r: 9.4, z: 0.8 }, raw1: { r: 8.7, z: 0.4 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "接近倒角（无误差）"
+            },
+            {
+              label: "Q1→Q2",
+              code: "G99 G1 X15.0 Z0 F0.05",
+              desc: "45° C0.5 倒角（-Z 外→内）：G42 贴合；G40 欠切 +0.166 mm 缩成 C0.266",
+              p0: { r: 8.3, z: 0.8 }, p1: { r: 7.5, z: 0.0 },
+              compType: "line",
+              o0: { r: 8.5828, z: 0.5172 }, o1: { r: 7.6657, z: -0.4 },
+              raw0: { r: 8.7, z: 0.4 }, raw1: { r: 7.9, z: -0.4 },
+              errRaw: +0.1657, errStatus: "warn", errTextRaw: "+0.166 mm 欠切",
+              normal: { nr: Math.SQRT1_2, nz: -Math.SQRT1_2 }
+            },
+            {
+              label: "Q2→Q3",
+              code: "X-2.0 F0.1",
+              desc: "端面车过中心至 X-2.0（r=-1.0），消除刀尖 R 造成的中心凸台",
+              p0: { r: 7.5, z: 0.0 }, p1: { r: -1.0, z: 0.0 },
+              compType: "line",
+              o0: { r: 7.6657, z: -0.4 }, o1: { r: -0.6, z: -0.4 },
+              raw0: { r: 7.9, z: -0.4 }, raw1: { r: -0.6, z: -0.4 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (端面无差)",
+              normal: { nr: 0, nz: -1 }
+            },
+            {
+              label: "Q3→Q4",
+              code: "G0 Z-1.0",
+              desc: "轴向离端面 1 mm（Z-1.0），准备取消补正退刀",
+              p0: { r: -1.0, z: 0.0 }, p1: { r: -1.0, z: -1.0 },
+              compType: "line",
+              o0: { r: -0.6, z: -0.4 }, o1: { r: -0.6, z: -1.0 },
+              raw0: { r: -0.6, z: -0.4 }, raw1: { r: -0.6, z: -1.4 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (离端面)"
+            },
+            {
+              label: "Q4→Q5",
+              code: "G40 G0 X18.0 (原例 X138.0 T0)",
+              desc: "径向退刀并 G40 取消补正（手册原例退至 X138.0，视窗退至 X18.0 示意）",
+              p0: { r: -1.0, z: -1.0 }, p1: { r: 9.0, z: -1.0 },
+              compType: "line",
+              o0: { r: -0.6, z: -1.0 }, o1: { r: 9.4, z: -1.4 },
+              raw0: { r: -0.6, z: -1.4 }, raw1: { r: 9.4, z: -1.4 },
+              errRaw: 0, errStatus: "ok", errTextRaw: "0.000 mm (安全退刀)"
+            }
+          ]
+        }
+      };
+
+      let scenarioKey = "g41";
+      let compOn = true;
+      let rightView = "zoom";
+      let playing = true;
+      let segIdx = 0;
+      let segT = 0.55;
+      let lastTs = null;
+
+      const el = (tag, attrs = {}, children = []) => {
+        const node = document.createElementNS(NS, tag);
+        for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v);
+        for (const c of children) node.appendChild(c);
+        return node;
+      };
+
+      function evalState(sc, idx, t, useComp) {
+        const seg = sc.segments[idx];
+        let o, p, contact = null;
+        p = { r: lerp(seg.p0.r, seg.p1.r, t), z: lerp(seg.p0.z, seg.p1.z, t) };
+
+        if (useComp) {
+          if (seg.compType === "arc") {
+            const th = t * (Math.PI / 2);
+            const rO = seg.arcCenter.r - seg.arcRadiusComp * Math.cos(th);
+            const zO = seg.arcCenter.z + seg.arcRadiusComp * Math.sin(th);
+            o = { r: rO, z: zO };
+            p = {
+              r: seg.arcCenter.r - seg.arcRadiusP * Math.cos(th),
+              z: seg.arcCenter.z + seg.arcRadiusP * Math.sin(th)
+            };
+            contact = { r: p.r, z: p.z, nr: -Math.cos(th), nz: Math.sin(th) };
+          } else if (seg.compType === "polyline") {
+            const pts = seg.polyComp;
+            const d1 = Math.hypot(pts[1].r - pts[0].r, pts[1].z - pts[0].z);
+            const d2 = Math.hypot(pts[2].r - pts[1].r, pts[2].z - pts[1].z);
+            const s = t * (d1 + d2);
+            if (s <= d1) {
+              const lt = s / d1;
+              o = { r: lerp(pts[0].r, pts[1].r, lt), z: lerp(pts[0].z, pts[1].z, lt) };
+              contact = { r: 8.0, z: 6.0, nr: lerp(0, 1, lt), nz: lerp(-1, 0, lt) };
+            } else {
+              const lt = (s - d1) / d2;
+              o = { r: lerp(pts[1].r, pts[2].r, lt), z: lerp(pts[1].z, pts[2].z, lt) };
+              contact = { r: 8.0, z: Math.max(6.0, Math.min(7.5, o.z)), nr: 1, nz: 0 };
+            }
+          } else {
+            o = { r: lerp(seg.o0.r, seg.o1.r, t), z: lerp(seg.o0.z, seg.o1.z, t) };
+            if (seg.normal) {
+              contact = {
+                r: o.r - R * seg.normal.nr,
+                z: o.z - R * seg.normal.nz,
+                nr: seg.normal.nr,
+                nz: seg.normal.nz
+              };
+            }
+          }
+        } else {
+          if (seg.compType === "arc") {
+            const th = t * (Math.PI / 2);
+            p = {
+              r: seg.arcCenter.r - seg.arcRadiusP * Math.cos(th),
+              z: seg.arcCenter.z + seg.arcRadiusP * Math.sin(th)
+            };
+            o = { r: p.r + R, z: p.z - R };
+            const dc = Math.hypot(o.r - seg.arcCenter.r, o.z - seg.arcCenter.z);
+            const err = 2.0 - (dc + R);
+            contact = {
+              r: seg.arcCenter.r + (o.r - seg.arcCenter.r) * (2.0 / dc),
+              z: seg.arcCenter.z + (o.z - seg.arcCenter.z) * (2.0 / dc),
+              err
+            };
+          } else {
+            o = { r: lerp(seg.raw0.r, seg.raw1.r, t), z: lerp(seg.raw0.z, seg.raw1.z, t) };
+            if (seg.normal) {
+              contact = {
+                r: o.r - R * seg.normal.nr,
+                z: o.z - R * seg.normal.nz,
+                nr: seg.normal.nr,
+                nz: seg.normal.nz,
+                err: seg.errRaw
+              };
+            }
+          }
+        }
+        return { seg, o, p, contact };
+      }
+
+      function buildInsertPath(ox, oy, scaleLen = 3.2) {
+        const a1 = 87 * Math.PI / 180;
+        const a2 = 52 * Math.PI / 180;
+        const n1 = a1 + Math.PI / 2;
+        const n2 = a2 - Math.PI / 2;
+        const t1x = ox + R * Math.cos(n1), t1y = oy + R * Math.sin(n1);
+        const t2x = ox + R * Math.cos(n2), t2y = oy + R * Math.sin(n2);
+        const p1x = t1x + scaleLen * Math.cos(a1), p1y = t1y + scaleLen * Math.sin(a1);
+        const p2x = t2x + scaleLen * Math.cos(a2), p2y = t2y + scaleLen * Math.sin(a2);
+        return `M ${p1x.toFixed(3)} ${p1y.toFixed(3)} L ${t1x.toFixed(3)} ${t1y.toFixed(3)} A ${R} ${R} 0 0 1 ${t2x.toFixed(3)} ${t2y.toFixed(3)} L ${p2x.toFixed(3)} ${p2y.toFixed(3)} Z`;
+      }
+
+      function contourToPath(items, mirrorY = false) {
+        const ySign = mirrorY ? -1 : 1;
+        let d = "";
+        items.forEach((it, i) => {
+          if (Array.isArray(it)) {
+            d += `${i === 0 ? "M" : "L"} ${it[0]} ${it[1] * ySign} `;
+          } else {
+            const sw = mirrorY ? (1 - it.sweep) : it.sweep;
+            d += `A ${it.r} ${it.r} 0 0 ${sw} ${it.to[0]} ${it.to[1] * ySign} `;
+          }
+        });
+        return d.trim();
+      }
+
+      function buildTrajectoryPath(sc, useComp) {
+        let d = "";
+        sc.segments.forEach((seg, i) => {
+          if (useComp) {
+            if (i === 0) {
+              const p0 = S(seg.o0.r, seg.o0.z);
+              d += `M ${p0[0]} ${p0[1]} `;
+            }
+            if (seg.compType === "arc") {
+              const p1 = S(seg.o1.r, seg.o1.z);
+              d += `A ${seg.arcRadiusComp} ${seg.arcRadiusComp} 0 0 0 ${p1[0]} ${p1[1]} `;
+            } else if (seg.compType === "polyline") {
+              for (let k = 1; k < seg.polyComp.length; k++) {
+                const pt = S(seg.polyComp[k].r, seg.polyComp[k].z);
+                d += `L ${pt[0]} ${pt[1]} `;
+              }
+            } else {
+              const p1 = S(seg.o1.r, seg.o1.z);
+              d += `L ${p1[0]} ${p1[1]} `;
+            }
+          } else {
+            if (i === 0) {
+              const p0 = S(seg.raw0.r, seg.raw0.z);
+              d += `M ${p0[0]} ${p0[1]} `;
+            }
+            if (seg.compType === "arc") {
+              const p1 = S(seg.raw1.r, seg.raw1.z);
+              d += `A ${seg.arcRadiusP} ${seg.arcRadiusP} 0 0 0 ${p1[0]} ${p1[1]} `;
+            } else {
+              const p1 = S(seg.raw1.r, seg.raw1.z);
+              d += `L ${p1[0]} ${p1[1]} `;
+            }
+          }
+        });
+        return d.trim();
+      }
+
+      function drawG40ErrorBands(parent, sc) {
+        if (sc.id === "g41") {
+          const off = 0.1657 * Math.SQRT1_2;
+          parent.appendChild(el("polygon", {
+            points: `0,5 -1,6 ${(-1 + off).toFixed(3)},${(6 + off).toFixed(3)} ${off.toFixed(3)},${(5 + off).toFixed(3)}`,
+            fill: "var(--warning)", "fill-opacity": "0.5",
+            stroke: "var(--warning)", "stroke-width": "0.06"
+          }));
+          parent.appendChild(el("path", {
+            d: "M -4 6 A 2 2 0 0 0 -6 8 L -5.6 8 A 2.0 2.0 0 0 1 -4 6.4 Z",
+            fill: "var(--warning)", "fill-opacity": "0.45",
+            stroke: "var(--warning)", "stroke-width": "0.05"
+          }));
+          const n56x = -1 / Math.sqrt(5), n56y = 2 / Math.sqrt(5);
+          const gouge = -0.2211;
+          const dx = gouge * n56x, dy = gouge * n56y;
+          parent.appendChild(el("polygon", {
+            points: `-7.5,8 -9.5,7 ${(-9.5 + dx).toFixed(3)},${(7 + dy).toFixed(3)} ${(-7.5 + dx).toFixed(3)},${(8 + dy).toFixed(3)}`,
+            fill: "var(--error)", "fill-opacity": "0.55",
+            stroke: "var(--error)", "stroke-width": "0.07"
+          }));
+        } else {
+          const off = 0.1657 * Math.SQRT1_2;
+          parent.appendChild(el("polygon", {
+            points: `0,7.5 -0.5,8 ${(-0.5 + off).toFixed(3)},${(8 + off).toFixed(3)} ${off.toFixed(3)},${(7.5 + off).toFixed(3)}`,
+            fill: "var(--warning)", "fill-opacity": "0.55",
+            stroke: "var(--warning)", "stroke-width": "0.06"
+          }));
+        }
+      }
+
+      function render() {
+        const sc = SCENARIOS[scenarioKey];
+        const st = evalState(sc, segIdx, segT, compOn);
+        const [ox, oy] = S(st.o.r, st.o.z);
+
+        const svgL = document.getElementById("svg-left");
+        svgL.setAttribute("viewBox", sc.leftViewBox);
+        svgL.innerHTML = "";
+
+        svgL.appendChild(el("line", {
+          x1: -14, y1: 0, x2: 5, y2: 0,
+          stroke: "var(--muted-foreground)", "stroke-width": "0.06", "stroke-dasharray": "0.4 0.25", opacity: "0.7"
+        }));
+        svgL.appendChild(el("line", {
+          x1: 0, y1: -2.2, x2: 0, y2: 10.5,
+          stroke: "var(--muted-foreground)", "stroke-width": "0.05", "stroke-dasharray": "0.25 0.25", opacity: "0.45"
+        }));
+
+        svgL.appendChild(el("path", {
+          d: contourToPath(sc.partContour, true),
+          fill: "var(--secondary)", "fill-opacity": "0.28",
+          stroke: "var(--muted-foreground)", "stroke-width": "0.06", "stroke-dasharray": "0.3 0.2", opacity: "0.55"
+        }));
+
+        svgL.appendChild(el("path", {
+          d: contourToPath(sc.partContour, false) + " Z",
+          fill: "var(--chart-1)", "fill-opacity": "0.18",
+          stroke: "var(--foreground)", "stroke-width": "0.11"
+        }));
+
+        if (!compOn) drawG40ErrorBands(svgL, sc);
+
+        let progD = "";
+        sc.partPoints.forEach((pt, i) => {
+          const [x, y] = S(pt.r, pt.z);
+          if (i === 0) progD += `M ${x} ${y} `;
+          else if (sc.id === "g41" && i === 4) progD += `A 2 2 0 0 0 ${x} ${y} `;
+          else progD += `L ${x} ${y} `;
+        });
+        svgL.appendChild(el("path", {
+          d: progD.trim(), fill: "none",
+          stroke: "var(--chart-2)", "stroke-width": "0.08", "stroke-dasharray": "0.24 0.16", opacity: "0.85"
+        }));
+
+        svgL.appendChild(el("path", {
+          d: buildTrajectoryPath(sc, compOn),
+          fill: "none",
+          stroke: compOn ? "var(--success)" : "var(--warning)",
+          "stroke-width": "0.11"
+        }));
+
+        svgL.appendChild(el("path", {
+          d: buildInsertPath(ox, oy, 3.0),
+          fill: "var(--chart-3)", "fill-opacity": "0.28",
+          stroke: "var(--chart-3)", "stroke-width": "0.09"
+        }));
+        svgL.appendChild(el("circle", {
+          cx: ox, cy: oy, r: R,
+          fill: "var(--chart-3)", "fill-opacity": "0.35",
+          stroke: compOn ? "var(--success)" : "var(--warning)", "stroke-width": "0.1"
+        }));
+        svgL.appendChild(el("circle", { cx: ox, cy: oy, r: 0.11, fill: "var(--foreground)" }));
+        svgL.appendChild(el("circle", { cx: ox - R, cy: oy - R, r: 0.10, fill: "var(--chart-2)" }));
+
+        sc.partPoints.forEach((pt) => {
+          const [x, y] = S(pt.r, pt.z);
+          svgL.appendChild(el("circle", {
+            cx: x, cy: y, r: 0.12,
+            fill: "var(--background)", stroke: "var(--chart-2)", "stroke-width": "0.07"
+          }));
+          const txt = el("text", {
+            x: x + pt.lx, y: y + pt.ly,
+            fill: "var(--foreground)", "font-size": "0.62", "font-weight": "700", "text-anchor": "middle"
+          });
+          txt.textContent = pt.id;
+          svgL.appendChild(txt);
+        });
+
+        const axZ = el("text", { x: -11.5, y: -1.4, fill: "var(--muted-foreground)", "font-size": "0.58" });
+        axZ.textContent = "← +Z (入料)";
+        svgL.appendChild(axZ);
+        const axZ0 = el("text", { x: 0.25, y: -1.4, fill: "var(--muted-foreground)", "font-size": "0.55" });
+        axZ0.textContent = "Z0";
+        svgL.appendChild(axZ0);
+        const axX = el("text", { x: 1.6, y: 9.4, fill: "var(--muted-foreground)", "font-size": "0.58" });
+        axX.textContent = "↓ +X (前刀台)";
+        svgL.appendChild(axX);
+
+        const svgR = document.getElementById("svg-right");
+        svgR.innerHTML = "";
+
+        if (rightView === "zoom") {
+          const vw = 4.6, vh = 3.0;
+          svgR.setAttribute("viewBox", `${(ox - vw * 0.45).toFixed(3)} ${(oy - vh * 0.48).toFixed(3)} ${vw} ${vh}`);
+
+          svgR.appendChild(el("path", {
+            d: contourToPath(sc.partContour, false) + " Z",
+            fill: "var(--chart-1)", "fill-opacity": "0.18",
+            stroke: "var(--foreground)", "stroke-width": "0.035"
+          }));
+          if (!compOn) drawG40ErrorBands(svgR, sc);
+
+          svgR.appendChild(el("path", {
+            d: progD.trim(), fill: "none",
+            stroke: "var(--chart-2)", "stroke-width": "0.025", "stroke-dasharray": "0.1 0.08"
+          }));
+          svgR.appendChild(el("path", {
+            d: buildTrajectoryPath(sc, compOn),
+            fill: "none", stroke: compOn ? "var(--success)" : "var(--warning)", "stroke-width": "0.035"
+          }));
+
+          svgR.appendChild(el("path", {
+            d: buildInsertPath(ox, oy, 2.5),
+            fill: "var(--chart-3)", "fill-opacity": "0.24",
+            stroke: "var(--chart-3)", "stroke-width": "0.035"
+          }));
+          svgR.appendChild(el("circle", {
+            cx: ox, cy: oy, r: R,
+            fill: "var(--chart-3)", "fill-opacity": "0.28",
+            stroke: compOn ? "var(--success)" : "var(--warning)", "stroke-width": "0.04"
+          }));
+
+          const fx = ox - R, fy = oy - R;
+          svgR.appendChild(el("line", {
+            x1: fx - 0.15, y1: fy, x2: ox + 0.35, y2: fy,
+            stroke: "var(--chart-2)", "stroke-width": "0.022", "stroke-dasharray": "0.07 0.05"
+          }));
+          svgR.appendChild(el("line", {
+            x1: fx, y1: fy - 0.15, x2: fx, y2: oy + 0.35,
+            stroke: "var(--chart-2)", "stroke-width": "0.022", "stroke-dasharray": "0.07 0.05"
+          }));
+
+          svgR.appendChild(el("circle", { cx: fx, cy: fy, r: 0.055, fill: "var(--chart-2)" }));
+          const tP = el("text", { x: fx - 0.10, y: fy - 0.10, fill: "var(--chart-2)", "font-size": "0.20", "font-weight": "700", "text-anchor": "end" });
+          tP.textContent = "假想刀尖P(T4)";
+          svgR.appendChild(tP);
+
+          svgR.appendChild(el("circle", { cx: ox, cy: oy, r: 0.048, fill: "var(--foreground)" }));
+          const tO = el("text", { x: ox + 0.12, y: oy + 0.22, fill: "var(--foreground)", "font-size": "0.20", "font-weight": "700" });
+          tO.textContent = "圆心O";
+          svgR.appendChild(tO);
+
+          if (st.contact) {
+            const [cx, cy] = S(st.contact.r, st.contact.z);
+            svgR.appendChild(el("line", {
+              x1: ox, y1: oy, x2: cx, y2: cy,
+              stroke: compOn ? "var(--success)" : (st.contact.err < -0.005 ? "var(--error)" : (st.contact.err > 0.005 ? "var(--warning)" : "var(--success)")),
+              "stroke-width": "0.032"
+            }));
+            svgR.appendChild(el("circle", {
+              cx, cy, r: 0.05,
+              fill: compOn ? "var(--success)" : (st.contact.err < -0.005 ? "var(--error)" : "var(--warning)")
+            }));
+            const tC = el("text", { x: cx - 0.08, y: cy - 0.10, fill: "var(--foreground)", "font-size": "0.18", "font-weight": "700", "text-anchor": "end" });
+            tC.textContent = compOn ? "切点C (R0.4)" : (st.contact.err < -0.005 ? "过切!" : (st.contact.err > 0.005 ? "欠切留肉" : "切点C"));
+            svgR.appendChild(tC);
+          }
+        } else {
+          svgR.setAttribute("viewBox", sc.swissViewBox);
+          const pushX = st.o.z;
+
+          const gBar = el("g", { transform: `translate(${pushX.toFixed(3)}, 0)` });
+          const topEndX = sc.id === "g41" ? -11.8 : -6.8;
+          gBar.appendChild(el("path", {
+            d: contourToPath(sc.partContour, true) + ` L ${topEndX} 0 Z`,
+            fill: "var(--chart-1)", "fill-opacity": "0.14",
+            stroke: "var(--muted-foreground)", "stroke-width": "0.08"
+          }));
+          gBar.appendChild(el("path", {
+            d: contourToPath(sc.partContour, false) + " Z",
+            fill: "var(--chart-1)", "fill-opacity": "0.24",
+            stroke: "var(--foreground)", "stroke-width": "0.11"
+          }));
+          const barStartX = sc.id === "g41" ? -11.8 : -6.8;
+          gBar.appendChild(el("rect", {
+            x: barStartX - 4.0, y: -8.0, width: 4.0, height: 16.0,
+            fill: "var(--chart-1)", "fill-opacity": "0.15",
+            stroke: "var(--muted-foreground)", "stroke-width": "0.08"
+          }));
+          gBar.appendChild(el("line", {
+            x1: barStartX - 4.2, y1: 0, x2: 1.8, y2: 0,
+            stroke: "var(--muted-foreground)", "stroke-width": "0.06", "stroke-dasharray": "0.45 0.25"
+          }));
+          svgR.appendChild(gBar);
+
+          const gbX = sc.id === "g41" ? -9.5 : -6.5;
+          const gbW = 8.2;
+          svgR.appendChild(el("rect", {
+            x: gbX, y: -9.8, width: gbW, height: 1.7,
+            fill: "var(--secondary)", "fill-opacity": "0.85",
+            stroke: "var(--border)", "stroke-width": "0.12"
+          }));
+          svgR.appendChild(el("rect", {
+            x: gbX, y: 8.1, width: gbW, height: 1.7,
+            fill: "var(--secondary)", "fill-opacity": "0.85",
+            stroke: "var(--border)", "stroke-width": "0.12"
+          }));
+          const tGB = el("text", { x: gbX + gbW / 2, y: -8.65, fill: "var(--foreground)", "font-size": "0.72", "font-weight": "700", "text-anchor": "middle" });
+          tGB.textContent = "固定导套 (Z不动)";
+          svgR.appendChild(tGB);
+
+          const gTool = el("g", { transform: `translate(0, ${st.o.r.toFixed(3)})` });
+          gTool.appendChild(el("path", {
+            d: buildInsertPath(0, 0, 3.2),
+            fill: "var(--chart-3)", "fill-opacity": "0.35",
+            stroke: "var(--chart-3)", "stroke-width": "0.11"
+          }));
+          gTool.appendChild(el("circle", {
+            cx: 0, cy: 0, r: R,
+            fill: "var(--chart-3)", "fill-opacity": "0.45",
+            stroke: compOn ? "var(--success)" : "var(--warning)", "stroke-width": "0.12"
+          }));
+          gTool.appendChild(el("circle", { cx: 0, cy: 0, r: 0.13, fill: "var(--foreground)" }));
+          svgR.appendChild(gTool);
+
+          const tz = el("text", { x: gbX + gbW + 0.6, y: -3.2, fill: "var(--chart-2)", "font-size": "0.75", "font-weight": "700" });
+          tz.textContent = `主轴+棒料 → +Z1=${fmt(st.o.z, 2)}`;
+          svgR.appendChild(tz);
+
+          const tx = el("text", { x: 1.2, y: st.o.r + 1.5, fill: "var(--chart-3)", "font-size": "0.72", "font-weight": "700" });
+          tx.textContent = `↕ X1=${fmt(st.o.r * 2, 2)}`;
+          svgR.appendChild(tx);
+        }
+
+        document.getElementById("tel-badge").textContent = st.seg.label;
+        document.getElementById("tel-code").textContent = st.seg.code;
+        document.getElementById("tel-desc").textContent = st.seg.desc;
+        document.getElementById("left-legend").textContent = compOn
+          ? (sc.id === "g41" ? "G41 左偏 · T4 R0.4" : "G42 右偏 · T4 R0.4")
+          : "G40 关 · 无补正";
+
+        document.getElementById("card-prog").textContent = `X${fmt(st.p.r * 2)} Z${fmt(st.p.z)}`;
+        document.getElementById("card-center").textContent = `r${fmt(st.o.r)} Z${fmt(st.o.z)}`;
+
+        const compEl = document.getElementById("card-comp");
+        compEl.textContent = compOn ? sc.compLabel : "G40 关 · 未补正";
+        compEl.style.color = compOn ? "var(--success)" : "var(--warning)";
+
+        const errEl = document.getElementById("card-err");
+        if (compOn) {
+          errEl.textContent = "0.000 mm (精准)";
+          errEl.style.color = "var(--success)";
+        } else {
+          let errVal = st.seg.errRaw;
+          if (st.seg.compType === "arc" && st.contact) errVal = st.contact.err;
+          if (Math.abs(errVal) < 0.002) {
+            errEl.textContent = st.seg.errTextRaw;
+            errEl.style.color = "var(--foreground)";
+          } else if (errVal > 0) {
+            errEl.textContent = `+${fmt(errVal)} mm 欠切`;
+            errEl.style.color = "var(--warning)";
+          } else {
+            errEl.textContent = `${fmt(errVal)} mm 过切!`;
+            errEl.style.color = "var(--error)";
+          }
+        }
+      }
+
+      function syncUI() {
+        const sc = SCENARIOS[scenarioKey];
+        const setBtn = (id, active) => {
+          document.getElementById(id).className = `btn-pill ${active ? "is-active" : ""}`;
+        };
+        setBtn("sc-g41", scenarioKey === "g41");
+        setBtn("sc-g42", scenarioKey === "g42");
+        setBtn("mode-on", compOn);
+        setBtn("mode-off", !compOn);
+
+        const setRv = (id, active) => {
+          document.getElementById(id).className = `btn-pill is-sm ${active ? "is-active" : ""}`;
+        };
+        setRv("rv-zoom", rightView === "zoom");
+        setRv("rv-swiss", rightView === "swiss");
+        document.getElementById("right-title").textContent = rightView === "zoom"
+          ? "刀尖 5× 局部放大（假想 P vs 圆心 O）"
+          : "走心机真实轴运动（导套固定 · +Z1推料）";
+
+        const playBtn = document.getElementById("btn-play");
+        playBtn.textContent = playing ? "暂停" : "播放";
+        playBtn.className = `btn-pill ${playing ? "is-active" : ""}`;
+
+        const bar = document.getElementById("seg-bar");
+        bar.innerHTML = "";
+        sc.segments.forEach((seg, i) => {
+          const b = document.createElement("button");
+          b.textContent = seg.label;
+          b.className = `btn-pill is-mono ${i === segIdx ? "is-active" : ""}`;
+          b.onclick = () => {
+            segIdx = i;
+            segT = 0.5;
+            playing = false;
+            syncUI();
+            render();
+          };
+          bar.appendChild(b);
+        });
+      }
+
+      document.getElementById("btn-play").onclick = () => {
+        playing = !playing;
+        lastTs = null;
+        syncUI();
+      };
+      document.getElementById("btn-prev").onclick = () => {
+        const len = SCENARIOS[scenarioKey].segments.length;
+        segIdx = (segIdx - 1 + len) % len;
+        segT = 0.5;
+        playing = false;
+        syncUI();
+        render();
+      };
+      document.getElementById("btn-next").onclick = () => {
+        const len = SCENARIOS[scenarioKey].segments.length;
+        segIdx = (segIdx + 1) % len;
+        segT = 0.5;
+        playing = false;
+        syncUI();
+        render();
+      };
+      document.getElementById("sc-g41").onclick = () => {
+        scenarioKey = "g41";
+        segIdx = 0;
+        segT = 0.5;
+        syncUI();
+        render();
+      };
+      document.getElementById("sc-g42").onclick = () => {
+        scenarioKey = "g42";
+        segIdx = 0;
+        segT = 0.5;
+        syncUI();
+        render();
+      };
+      document.getElementById("mode-on").onclick = () => { compOn = true; syncUI(); render(); };
+      document.getElementById("mode-off").onclick = () => { compOn = false; syncUI(); render(); };
+      document.getElementById("rv-zoom").onclick = () => { rightView = "zoom"; syncUI(); render(); };
+      document.getElementById("rv-swiss").onclick = () => { rightView = "swiss"; syncUI(); render(); };
+
+      function tick(ts) {
+        if (playing) {
+          if (lastTs === null) lastTs = ts;
+          const dt = Math.min(0.05, (ts - lastTs) / 1000);
+          lastTs = ts;
+          segT += dt * 0.45;
+          if (segT >= 1.0) {
+            segT -= 1.0;
+            segIdx = (segIdx + 1) % SCENARIOS[scenarioKey].segments.length;
+            syncUI();
+          }
+          render();
+        } else {
+          lastTs = null;
+        }
+        requestAnimationFrame(tick);
+      }
+
+      syncUI();
+      render();
+      requestAnimationFrame(tick);
+    })();
+  </script>
+</body>
+</html>
