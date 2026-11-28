@@ -1,2 +1,10 @@
 /tmp/book/
 __pycache__/
+
+# ESPRIT 自动备份及含本机配置的导出文件
+*.esp_bak[0-9]*
+/ESPRIT 设置备份/
+
+# 双端六方件归档在同名零件目录下，保留 output 中的本地副本
+/output/双端六方舌形槽多孔件.esp
+/output/双端六方舌形槽多孔件.step
